@@ -1,0 +1,51 @@
+format = """
+$os\
+$username\
+$hostname\
+$localip\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$fossil_branch\
+$fossil_metrics\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$pijul_channel\
+$docker_context\
+$package\
+$line_break\
+$jobs\
+$time\
+$status\
+$container\
+$shell\
+$character"""
+
+add_newline = true
+[os]
+format = "[$symbol]($style) "
+disabled = false
+
+[battery]
+disabled = true
+
+[os.symbols]
+Arch = " "
+
+[directory]
+format = "($style)[$path]($style) [$read_only]($read_only_style)"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+
+[git_metrics]
+disabled = false
