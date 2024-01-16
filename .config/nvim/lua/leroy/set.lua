@@ -48,14 +48,5 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 
-require('tokyonight').setup({
-    transparent = true,
-    style = 'night',
-    styles = {
-        sidebars = "transparent",
-        floats = "transparent"
-    }
-})
-
 vim.cmd[[colorscheme tokyonight-night]]
 
