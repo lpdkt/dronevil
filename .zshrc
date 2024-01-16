@@ -20,6 +20,7 @@ export EDITOR=nvim
 ZSH_THEME=""
 # Aliases
 
+alias vim='nvim'
 alias nvimdir='cd .config/nvim && nvim .'
 alias q='exit'
 alias mspw='python mspw.py | wl-copy'
@@ -30,9 +31,6 @@ alias mpdstop='pkill -9 mpd'
 alias progc='~/Documents/Uni/coding/3.Semester/progc/'
 alias uni='lf ~/Documents/Uni/'
 alias celeste='./games/celeste-linux/Celeste'
-alias cmlib='cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -S . -B out/build '
-alias cm='cmake -S . -B out/build'
-
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random
