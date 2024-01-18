@@ -1,6 +1,6 @@
+vim.cmd[[colorscheme tokyonight-night]]
 
 vim.o.termguicolors = true
-
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -30,23 +30,16 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
 
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
-
-
-
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
-
---
 -- NetWr deaktiviert // falls aktivieren nächsten beiden Zeilen löschen
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 
-vim.cmd[[colorscheme tokyonight-night]]
 

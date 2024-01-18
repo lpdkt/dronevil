@@ -2,6 +2,7 @@ return {
     'mbbill/undotree',
     'tpope/vim-fugitive',
     'xiyaowong/transparent.nvim',
+    'Civitasv/cmake-tools.nvim',
 
     {
         "ThePrimeagen/refactoring.nvim",
