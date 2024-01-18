@@ -31,3 +31,7 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>cf", "<cmd>e ~/.config/nvim/lua/leroy/plugins/<CR>");
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
