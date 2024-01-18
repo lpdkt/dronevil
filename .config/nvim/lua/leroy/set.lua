@@ -30,15 +30,13 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-<<<<<<< HEAD
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
-=======
+
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
->>>>>>> refs/remotes/origin/master
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
