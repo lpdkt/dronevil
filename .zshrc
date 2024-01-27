@@ -1,4 +1,4 @@
-
+nitch
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -19,10 +19,9 @@ export EDITOR=nvim
 ZSH_THEME=""
 # Aliases
 
-alias vim='nvim'
 alias nvimdir='cd .config/nvim && nvim .'
 alias q='exit'
-alias mspw='python mspw.py | wl-copy'
+alias mspw='python ~/mspw.py | wl-copy'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
 alias hypr='nvim ~/.config/hypr/'
 alias ghu='yadm add -u && yadm commit -m "update" && yadm push'
@@ -30,6 +29,9 @@ alias mpdstop='pkill -9 mpd'
 alias progc='~/Documents/Uni/coding/3.Semester/progc/'
 alias uni='lf ~/Documents/Uni/'
 alias celeste='./games/celeste-linux/Celeste'
+alias mus='mpd && mpdscribble && ncmpcpp'
+alias stopmus='pkill -9 mpd && pkill -9 mpdscribble'
+alias zzz='systemctl hybrid-sleep'
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random
