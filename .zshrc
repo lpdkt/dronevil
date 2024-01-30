@@ -1,4 +1,3 @@
-nitch
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -6,6 +5,7 @@ nitch
 export ZSH="$HOME/.oh-my-zsh"
 
 path+=('/home/leroy/bin')
+path+=('~/.config/emacs/bin')
 export PATH
 
 export EDITOR=nvim
