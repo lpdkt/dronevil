@@ -1,7 +1,7 @@
-# my arch linux dotfiles
+## my arch linux dotfiles
 
 
-## my choice of software:
+### my choice of software:
 distro: `arch` \
 wm: `hyprland` \
 terminal emulator: `foot` \
