@@ -25,10 +25,12 @@
         "icon-size": 18,
         "spacing": 10
     },
+
     "cpu" : {
       "interval": 1,
       "format": "  {}%"
     },
+
     "memory": {
       "interval": 1,
       "format": "  {}%"
