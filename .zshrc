@@ -19,7 +19,7 @@ export EDITOR=nvim
 ZSH_THEME=""
 # Aliases
 
-alias nvimdir='cd .config/nvim && nvim .'
+alias nvimdir='cd ~/.config/nvim && nvim .'
 alias q='exit'
 alias mspw='python ~/mspw.py | wl-copy'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
@@ -32,6 +32,7 @@ alias celeste='./games/celeste-linux/Celeste'
 alias mus='mpd && mpdscribble && ncmpcpp'
 alias stopmus='pkill -9 mpd && pkill -9 mpdscribble'
 alias zzz='systemctl hybrid-sleep'
+alias cmcomp='cd out/Debug && make'
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random

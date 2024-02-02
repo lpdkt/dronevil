@@ -7,7 +7,9 @@ return {
             styles = {
                 sidebars = "transparent",
                 floats = "transparent"
-            }
+            },
+            dims_inactive = true,
+            lualine_bold = true
         })
     end
 }
