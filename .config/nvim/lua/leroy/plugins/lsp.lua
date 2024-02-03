@@ -44,6 +44,8 @@ return {
             ["<C-Space>"] = cmp.mapping.complete(),
         })
 
+
+
         cmp_mappings['<Tab>'] = nil
         cmp_mappings['<S-Tab>'] = nil
 
@@ -82,6 +84,5 @@ return {
         vim.diagnostic.config({
             virtual_text = true
         })
-
     end
 }

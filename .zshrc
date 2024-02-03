@@ -5,7 +5,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 path+=('/home/leroy/bin')
-path+=('~/.config/emacs/bin')
+export PATH
+path+=('/home/leroy/.config/emacs/bin')
 export PATH
 
 export EDITOR=nvim
@@ -32,7 +33,7 @@ alias celeste='./games/celeste-linux/Celeste'
 alias mus='mpd && mpdscribble && ncmpcpp'
 alias stopmus='pkill -9 mpd && pkill -9 mpdscribble'
 alias zzz='systemctl hybrid-sleep'
-alias cmcomp='cd out/Debug && make'
+alias vault='cd ~/Documents/vault'
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random
