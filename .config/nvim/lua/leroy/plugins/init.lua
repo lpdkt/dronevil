@@ -2,7 +2,16 @@ return {
     'mbbill/undotree',
     'tpope/vim-fugitive',
     'xiyaowong/transparent.nvim',
-    'Civitasv/cmake-tools.nvim',
+    'eandrju/cellular-automaton.nvim',
+    -- 'github/copilot.vim',
+    { 'wakatime/vim-wakatime', lazy = false },
+
+    {
+        'numToStr/Comment.nvim',
+        opts = {},
+        lazy = false,
+    },
+
 
     {
         "ThePrimeagen/refactoring.nvim",
@@ -14,20 +23,7 @@ return {
     {
         'windwp/nvim-autopairs',
         event = "InsertEnter",
-        opts = {} -- this is equalent to setup({}) function
-    },
-
-    {
-        "iamcco/markdown-preview.nvim",
-        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-        ft = { "markdown" },
-        build = function() vim.fn["mkdp#util#install"]() end,
-    },
-
-    {
-        "lukas-reineke/headlines.nvim",
-        dependencies = "nvim-treesitter/nvim-treesitter",
-        config = true, -- or `opts = {}`
+        opts = {}
     },
 
 }

@@ -20,6 +20,7 @@ export EDITOR=nvim
 ZSH_THEME=""
 # Aliases
 
+alias vim='nvim'
 alias nvimdir='cd ~/.config/nvim && nvim .'
 alias q='exit'
 alias mspw='python ~/mspw.py | wl-copy'
@@ -138,3 +139,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # loading starship
 eval "$(starship init zsh)"
 
+pfetch

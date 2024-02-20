@@ -7,7 +7,7 @@
     "gtk-layer-shell": true,
     "height": 44,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["custom/pomodoro","mpris", "mpd"],
+    "modules-center": ["mpris"],
     "modules-right": ["clock", "cpu", "memory", "backlight","pulseaudio","pulseaudio#microphone", "tray"],
     "hyprland/window": {
         "format": "{}"

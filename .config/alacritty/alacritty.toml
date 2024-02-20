@@ -1,4 +1,4 @@
-import = ["/home/leroy/.config/alacritty/themes/tokyo-night.toml"]
+import = ["/home/leroy/.config/alacritty/themes/kanagawa_dragon.toml"]
 
 [cursor.style]
 shape = "Beam"
