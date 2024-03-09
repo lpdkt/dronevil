@@ -35,6 +35,7 @@ alias mus='mpd && mpdscribble && ncmpcpp'
 alias stopmus='pkill -9 mpd && pkill -9 mpdscribble'
 alias zzz='systemctl hybrid-sleep'
 alias vault='cd ~/Documents/vault'
+alias open='yazi'
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random
@@ -97,7 +98,7 @@ PATH=$PATH:/home/bin/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting zsh-vi-mode)
+plugins=(git sudo zsh-256color zsh-syntax-highlighting zsh-vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

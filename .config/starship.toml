@@ -36,7 +36,7 @@ disabled = false
 disabled = true
 
 [os.symbols]
-Arch = " "
+Arch = "󰣇 "
 
 [directory]
 format = "($style)[$path]($style) [$read_only]($read_only_style)"
@@ -46,6 +46,16 @@ format = "[$symbol$branch]($style) "
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
+ahead = '⇡ '
+behind = '⇣ ' 	
+diverged = '⇕ ' 	
+up_to_date = '' 	
+untracked= '?' 	
+stashed = '$' 
+modified ='!'
+staged = '+' 
+renamed = '»'
+deleted = '✘ '
 
 [git_metrics]
 disabled = false
