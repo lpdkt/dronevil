@@ -77,7 +77,7 @@ tooltip {
   opacity: 1.0;
   padding: 0px 7px;
   margin-top: 5px;
-  margin-bottom: 6px;
+  /*  margin-bottom: 5px; */
   /* border: 1px solid #b5b0a7; */
 }
 
@@ -149,6 +149,7 @@ tooltip {
   border-radius: 7px;
   /* margin-left: 10px; */
   margin-right: 5px;
+  /* margin-left: 5px; */
   padding-right: 0px;
   border-right: 0px;
   opacity: 1.0;

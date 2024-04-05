@@ -5,7 +5,7 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 44,
+    "height": 25,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpris"],
     "modules-right": ["clock", "cpu", "memory", "backlight","pulseaudio","pulseaudio#microphone", "tray"],
@@ -16,7 +16,7 @@
     "hyprland/workspaces": {
         "disable-scroll": true,
         "format": "{icon}",
-        "format-icons": {"1":" ", "2" : "󰈹 ", "3": "󰙯 ", "4": " ","5": "五", "6": "六", "7": "七","8": "八","9": "九", "10": "十"},
+        "format-icons": {"1":" ", "2" : "󰈹 ", "3": "󰙯 ", "4": " ","5": " ", "6": "󰊴 ", "7": " ","8": " ","9": " ", "10": " "},
         "all-outputs": true,
         "on-click": "activate"
     },
@@ -37,8 +37,8 @@
     },
 
     "clock": {
-        "format": "{:  %H:%M }",
-        "format-alt":"{:  %a, %b %e }",
+        "format": "  {:%H:%M }",
+        "format-alt":"  {:%a, %b %e }",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
