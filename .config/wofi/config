@@ -1,5 +1,6 @@
 mode=drun
 allow_images=true
 image_size=30
-width=1000
+width=600
+height=300
 
