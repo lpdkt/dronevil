@@ -8,7 +8,7 @@
     "height": 25,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpris"],
-    "modules-right": ["clock", "cpu", "memory", "backlight","pulseaudio","pulseaudio#microphone", "tray"],
+    "modules-right": ["clock", "cpu", "memory","pulseaudio","pulseaudio#microphone", "tray"],
     "hyprland/window": {
         "format": "{}"
     },
