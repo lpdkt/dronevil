@@ -12,7 +12,7 @@ text editor: `neovim` \
 browser: `firefox` \
 file manager: `thunar & yazi` \
 notifications: `dunst` \
-image viewer: `qview` \
+image viewer: `imv` \
 video player: `mpv` \
 pdf viewer: `zathura` \
 screenshot tool: `grim + slurp` \
