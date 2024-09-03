@@ -2,7 +2,7 @@ return {
     "stevearc/oil.nvim",
     config = function()
         require("oil").setup({
-            vim.keymap.set("n", "<leader>ft", "<cmd>Oil<CR>"),
+            vim.keymap.set("n", "<leader>ft", "<cmd>Oil --float<CR>"),
             default_file_explorer = true,
             columns = {
                 "icon",
