@@ -9,7 +9,7 @@ shell: `zsh with starship prompt` \
 application launcher: `wofi` \
 bar: `waybar` \
 text editor: `neovim` \
-browser: `firefox` \
+browser: `firefox + betterfox` \
 file manager: `thunar & yazi` \
 notifications: `dunst` \
 image viewer: `imv` \
