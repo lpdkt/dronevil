@@ -50,7 +50,7 @@ return {
             },
             ensure_installed = {
                 'clangd',
-                'rust_analyzer',
+                'gopls',
                 'lua_ls',
             },
         })

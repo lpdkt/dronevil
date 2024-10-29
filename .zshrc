@@ -8,6 +8,8 @@ path+=('/home/leroy/bin')
 export PATH
 path+=('/home/leroy/.config/emacs/bin')
 export PATH
+path+=('/home/leroy/go/bin')
+export PATH
 
 export EDITOR=nvim
 
