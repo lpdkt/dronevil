@@ -25,7 +25,6 @@ ZSH_THEME=""
 alias vim='nvim'
 alias nvimdir='cd ~/.config/nvim && nvim .'
 alias q='exit'
-alias mspw='python ~/mspw.py | wl-copy'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
 alias hypr='nvim ~/.config/hypr/'
 alias ghu='yadm add -u && yadm commit -m "update" && yadm push'
