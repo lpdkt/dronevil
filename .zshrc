@@ -141,5 +141,3 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # loading starship
 eval "$(starship init zsh)"
 
-pfetch
-
