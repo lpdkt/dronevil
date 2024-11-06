@@ -8,6 +8,7 @@ return {
                 "c",
                 "java",
                 "lua",
+                "go",
                 "rust",
                 "vim",
                 "vimdoc",

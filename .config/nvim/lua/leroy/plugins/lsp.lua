@@ -73,8 +73,8 @@ return {
         end)
 
         lsp.set_sign_icons({
-            error = '',
-            warn = '',
+            error = ' ',
+            warn = ' ',
             hint = '⚑',
             info = ''
         })

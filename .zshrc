@@ -24,19 +24,19 @@ ZSH_THEME=""
 
 alias vim='nvim'
 alias nvimdir='cd ~/.config/nvim && nvim .'
+alias ec='emacsclient -c -a 'emacs' &'
 alias q='exit'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
 alias hypr='nvim ~/.config/hypr/'
 alias ghu='yadm add -u && yadm commit -m "update" && yadm push'
 alias mpdstop='pkill -9 mpd'
-alias progc='~/Documents/Uni/coding/3.Semester/progc/'
-alias uni='lf ~/Documents/Uni/'
+alias uni='yazi ~/documents/uni/'
 alias celeste='./games/celeste-linux/Celeste'
 alias mus='mpd && mpdscribble && ncmpcpp'
 alias stopmus='pkill -9 mpd && pkill -9 mpdscribble'
 alias zzz='systemctl hybrid-sleep'
-alias vault='cd ~/Documents/vault'
-alias open='yazi'
+alias vault='cd ~/documents/vault'
+alias notes='nvim notes'
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random
