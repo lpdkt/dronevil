@@ -154,22 +154,5 @@
       "tooltip-format-disconnected": "MPD (disconnected)"
     },
 
-    "custom/pacman": {
-      "format": "  {}",
-      "interval" : 100,
-      "exec" : "~/.local/scripts/checkupdate",
-      "exec-if" : "exit 0",
-      "on-click": "alacritty -e paru"
-    },
-    
-   "custom/pomodoro": {
-      "exec": "i3-gnome-pomodoro status --format=waybar --show-seconds | awk '{gsub(/Pomodoro /,\"\")}1'",
-       "return-type": "json",
-       "interval": 1,
-       "format": " {}",
-       "on-click": "i3-gnome-pomodoro toggle",
-       "on-middle-click": "i3-gnome-pomodoro stop",
-       "on-right-click": "i3-gnome-pomodoro start-stop"
-    }
     
 }
