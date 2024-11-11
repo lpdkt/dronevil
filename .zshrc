@@ -29,14 +29,11 @@ alias q='exit'
 alias tmuxconf='nvim ~/.config/tmux/tmux.conf'
 alias hypr='nvim ~/.config/hypr/'
 alias ghu='yadm add -u && yadm commit -m "update" && yadm push'
-alias mpdstop='pkill -9 mpd'
 alias uni='yazi ~/documents/uni/'
 alias celeste='./games/celeste-linux/Celeste'
-alias mus='mpd && mpdscribble && ncmpcpp'
-alias stopmus='pkill -9 mpd && pkill -9 mpdscribble'
 alias zzz='systemctl hybrid-sleep'
 alias vault='cd ~/documents/vault'
-alias notes='nvim notes'
+alias notes='yazi notes'
 
 PATH=$PATH:/home/bin/
 # Set list of themes to pick from when loading at random
@@ -130,14 +127,6 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$PATH:/home/leroy/.spicetify
 
-
-# bun completions
-[ -s "/home/leroy/.bun/_bun" ] && source "/home/leroy/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-#
 # loading starship
 eval "$(starship init zsh)"
 
