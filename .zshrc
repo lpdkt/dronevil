@@ -23,6 +23,7 @@ ZSH_THEME=""
 # Aliases
 
 alias vim='nvim'
+alias nv='nvim'
 alias nvimdir='cd ~/.config/nvim && nvim .'
 alias ec='emacsclient -c -a 'emacs' &'
 alias q='exit'

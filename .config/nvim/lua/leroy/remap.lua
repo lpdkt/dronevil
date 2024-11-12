@@ -1,6 +1,5 @@
 vim.g.mapleader = " "
 
--- undotree
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 
 -- vertically move lines when in visual mode

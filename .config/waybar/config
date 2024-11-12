@@ -5,10 +5,10 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 25,
+    "height": 20,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpris"],
-    "modules-right": ["clock", "cpu", "memory","pulseaudio","pulseaudio#microphone", "tray"],
+    "modules-right": ["cpu", "memory", "pulseaudio","pulseaudio#microphone", "clock", "tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -37,8 +37,7 @@
     },
 
     "clock": {
-        "format": "  {:%H:%M }",
-        "format-alt":"  {:%a, %b %e }",
+        "format": "󰃰  {:%a, %b %e %H:%M }",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
