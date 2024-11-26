@@ -6,7 +6,7 @@ return {
     config = function()
         require("telescope").load_extension("refactoring")
         local builtin = require('telescope.builtin')
-        vim.g.tokyonight_dark_float = false
+        vim.g.gruvbox_dark_float = false
         vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
         vim.keymap.set('n', '<C-p>', builtin.git_files, {})
         vim.keymap.set('n', '<leader>fs', function()

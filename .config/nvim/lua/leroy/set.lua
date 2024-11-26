@@ -1,4 +1,5 @@
-vim.cmd[[colorscheme tokyonight-night]]
+vim.o.background = "dark"
+vim.cmd[[colorscheme gruvbox]]
 
 vim.o.termguicolors = true
 
@@ -8,6 +9,7 @@ vim.opt.relativenumber = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
+vim.opt.fillchars = { eob = " " }
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
@@ -30,16 +32,6 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
-
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
-
-
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true
 
 -- NetWr deaktiviert // falls aktivieren nächsten beiden Zeilen löschen
 vim.g.loaded_netrw = 1

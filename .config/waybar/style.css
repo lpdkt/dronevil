@@ -13,11 +13,11 @@ window#waybar {
 }
 
 tooltip {
-  background: #12121e;
+  background: #282828;
   border-radius: 7px;
   border-width: 2px;
   border-style: solid;
-  border-color: #11111b;
+  border-color: #282828;
   opacity: 1.0;
 }
 
@@ -29,13 +29,13 @@ tooltip {
 }
 
 #workspaces button.active {
-  color: #89b4fa;
-  background: #1e1e2e;
+  color: #ebdbb2;
+  background: #282828;
 }
 
 #workspaces button.focused {
-  color: #707880;
-  background: #eba0ac;
+  color: #fb4934;
+  background: #282828;
   border-radius: 7px;
 }
 
@@ -47,8 +47,8 @@ tooltip {
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
+  background: #282828;
+  color: #d5c4a1;
   border-radius: 17px;
 }
 
@@ -73,7 +73,7 @@ tooltip {
 #custom-spotify,
 
 #modbackground {
-  background: #1e1e2e;
+  background: #282828;
   opacity: 1.0;
   padding: 0px 7px;
   margin-top: 5px;
@@ -83,7 +83,7 @@ tooltip {
 
 #backlight {
   border-radius: 7px 0px 0px 7px;
-  background: #1e1e2e;
+  background: #282828;
   opacity: 1.0;
   padding: 0px 7px;
   margin-top: 5px;
@@ -91,7 +91,7 @@ tooltip {
 }
 
 #pulseaudio {
-  color: #89b4fa;
+  color: #458588;
   border-radius: 0px;
   border-left: 0px;
   border-radius: 7px 0px 0px 7px;
@@ -99,7 +99,7 @@ tooltip {
 }
 
 #pulseaudio.microphone {
-  color: #cba6f7;
+  color: #b16286;
   border-left: 0px;
   border-right: 0px;
   border-radius: 0px 7px 7px 0px;
@@ -107,12 +107,12 @@ tooltip {
 }
 
 #cpu {
-  color: #89dceb;
+  color: #689d6a;
   border-radius: 7px 0px 0px 7px;
 }
 
 #memory {
-  color: #94e2d5;
+  color: #8ec07c;
   border-radius: 0px 7px 7px 0px;
   margin-right: 5px;
 }
@@ -123,7 +123,7 @@ tooltip {
 }
 
 #workspaces {
-  background: #1e1e2e;
+  background: #282828;
   border-radius: 7px;
   margin-left: 5px;
   padding-right: 5px;
@@ -145,7 +145,7 @@ tooltip {
 }
 
 #clock {
-  color: #fab387;
+  color: #fb4934;
   border-radius: 7px;
   /* margin-left: 10px; */
   margin-right: 5px;
