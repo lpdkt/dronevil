@@ -11,14 +11,6 @@ return {
         lazy = false,
     },
 
-
-    {
-        "ThePrimeagen/refactoring.nvim",
-        dependencies = {
-            { "nvim-lua/plenary.nvim" },
-        }
-    },
-
     {
         'windwp/nvim-autopairs',
         event = "InsertEnter",
