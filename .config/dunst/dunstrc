@@ -16,6 +16,7 @@ progress_bar_min_width = 150
 progress_bar_max_width = 300
 progress_bar_corner_radius = 5
 icon_corner_radius = 5
+corner_radius = 5
 indicate_hidden = yes
 transparency = 0
 separator_height = 2
