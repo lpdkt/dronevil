@@ -8,7 +8,7 @@ return {
     },
     config = function()
         require("barbecue").setup({
-            theme = "gruvbox",
+            theme = "tokyonight",
         })
         require("barbecue.ui").toggle(true)
     end
