@@ -1,13 +1,14 @@
 * {
-    border-radius: 3px;
+    border-radius: 5px;
+    font-family: "Iosevka Nerd Font";
 }
-
 
 window {
     font-size: 14px;
-    font-family: "Iosevka Nerd Font";
     opacity: 1.0;
     border-radius: 5px;
+    border: 2px solid #ebdbb2;
+    background-color: #282828;
 }
 
 image {
@@ -16,5 +17,63 @@ image {
 }
 
 #input {
+    background: #282828;
     border-radius: 5px;
+    color: #ebdbb2;
+    border: 1px solid #665c54;
+    outline: none;
+    box-shadow: none;
+}
+
+#input:focus {
+    border: 1px solid #665c54;
+    outline: none;
+    box-shadow: none;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #282828;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: #282828;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #ebdbb2;
+}
+
+#entry {
+    background-color: #282828;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#entry:selected {
+    background-color: #1d2021;
+    color: #ebdbb2;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#mode-switcher button {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+#mode-switcher button:selected {
+    background-color: #1d2021;
 }
