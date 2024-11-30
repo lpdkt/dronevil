@@ -13,7 +13,7 @@ window#waybar {
 }
 
 tooltip {
-  background: #1a1b26;
+  background: #12121e;
   border-radius: 7px;
   border-width: 2px;
   border-style: solid;
@@ -30,7 +30,7 @@ tooltip {
 
 #workspaces button.active {
   color: #89b4fa;
-  background: #1a1b26;
+  background: #1e1e2e;
 }
 
 #workspaces button.focused {
@@ -73,7 +73,7 @@ tooltip {
 #custom-spotify,
 
 #modbackground {
-  background: #1a1b26;
+  background: #1e1e2e;
   opacity: 1.0;
   padding: 0px 7px;
   margin-top: 5px;
@@ -83,7 +83,7 @@ tooltip {
 
 #backlight {
   border-radius: 7px 0px 0px 7px;
-  background: #1a1b26;
+  background: #1e1e2e;
   opacity: 1.0;
   padding: 0px 7px;
   margin-top: 5px;
@@ -123,7 +123,7 @@ tooltip {
 }
 
 #workspaces {
-  background: #1a1b26;
+  background: #1e1e2e;
   border-radius: 7px;
   margin-left: 5px;
   padding-right: 5px;
