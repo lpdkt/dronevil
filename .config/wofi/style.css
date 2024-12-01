@@ -7,8 +7,8 @@ window {
     font-size: 14px;
     opacity: 1.0;
     border-radius: 5px;
-    border: 2px solid #ebdbb2;
-    background-color: #282828;
+    border: 2px solid rgba(122, 162, 247, 0.67);
+    background-color: #1A1B26;
 }
 
 image {
@@ -17,16 +17,15 @@ image {
 }
 
 #input {
-    background: #282828;
+    background: #1A1B26;
     border-radius: 5px;
-    color: #ebdbb2;
-    border: 1px solid #665c54;
+    border: 1px solid #7aa2f7aa;
     outline: none;
     box-shadow: none;
 }
 
 #input:focus {
-    border: 1px solid #665c54;
+    border: 1px solid #7aa2f7aa;
     outline: none;
     box-shadow: none;
 }
@@ -34,13 +33,13 @@ image {
 #inner-box {
     margin: 5px;
     border: none;
-    background-color: #282828;
+    background-color: #1A1B26;
 }
 
 #outer-box {
     margin: 5px;
     border: none;
-    background-color: #282828;
+    background-color: #1A1B26;
 }
 
 #scroll {
@@ -51,29 +50,26 @@ image {
 #text {
     margin: 5px;
     border: none;
-    color: #ebdbb2;
 }
 
 #entry {
-    background-color: #282828;
+    background-color: #1A1B26;
     border: none;
     outline: none;
     box-shadow: none;
 }
 
 #entry:selected {
-    background-color: #1d2021;
-    color: #ebdbb2;
+    background-color: #12121e;
     border: none;
     outline: none;
     box-shadow: none;
 }
 
 #mode-switcher button {
-    background-color: #282828;
-    color: #ebdbb2;
+    background-color: #1A1B26;
 }
 
 #mode-switcher button:selected {
-    background-color: #1d2021;
+    background-color: #12121e;
 }
