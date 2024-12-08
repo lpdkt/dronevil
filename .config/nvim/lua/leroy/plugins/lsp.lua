@@ -36,6 +36,7 @@ return {
                 { name = 'nvim_lsp' },
                 { name = 'luasnip' },
                 { name = 'buffer' },
+                { name = 'path' },
             })
         })
 
@@ -46,10 +47,11 @@ return {
                 'gopls',
                 'lua_ls',
             },
+
             handlers = {
                 function(server_name) -- default handler for language servers
                     lsp[server_name].setup {
-                        capabilities = capabilities
+                        capabilities = capabilities,
                     }
                 end,
 

@@ -32,7 +32,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 
--- NetWr deaktiviert // falls aktivieren nächsten beiden Zeilen löschen
+-- deactivate Netwr
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
