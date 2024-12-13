@@ -11,7 +11,7 @@ return {
                 sidebars = "transparent",
                 floats = "transparent"
             },
-            dims_inactive = true,
+            dims_inactive = false,
             lualine_bold = true
         })
     end
