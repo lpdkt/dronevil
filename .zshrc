@@ -4,12 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 path+=('/home/leroy/bin')
-export PATH
 path+=('/home/leroy/.config/emacs/bin')
-export PATH
 path+=('/home/leroy/go/bin')
-export PATH
-path+=('home/leroy/.spicetify')
+path+=('/home/leroy/.spicetify')
 export PATH
 
 export EDITOR=nvim
@@ -33,6 +30,7 @@ alias uni='yazi ~/documents/uni/'
 alias zzz='systemctl hybrid-sleep'
 alias vault='cd ~/documents/vault'
 alias notes='yazi notes'
+alias extractzip='extract *.zip'
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
