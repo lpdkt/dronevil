@@ -140,11 +140,11 @@ musical_spectrum.window 1
 network.proxy.port 8080
 output_plugin alsa
 playback.loop 1
-playback.volume.normalized 0.0471331
+playback.volume.normalized 0.0838158
 playlist.current 0
-playlist.cursor.0 12
+playlist.cursor.0 5
 playlist.cursor.1 0
-playlist.scroll.0 -12
+playlist.scroll.0 -5
 playlist.scroll.1 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Default
@@ -154,9 +154,9 @@ prefwin.geometry.w 761
 prefwin.geometry.x 0
 prefwin.geometry.y 0
 resume.paused 0
-resume.playlist 0
-resume.position 0.0284375
-resume.track 2
+resume.playlist -1
+resume.position -1.000000
+resume.track -1
 streamer.bit_override 0
 streamer.samplerate 44100
 streamer.samplerate_mult_44 44100
