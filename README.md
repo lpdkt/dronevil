@@ -12,8 +12,8 @@ text editor: `neovim` \
 browser: `firefox + betterfox` \
 file manager: `thunar & yazi` \
 notifications: `dunst` \
-image viewer: `imv` \
 video player: `mpv` \
+image viewer: `imv` \
 pdf viewer: `zathura` \
 screenshot tool: `grim + slurp` \
 screen recording: `obs` \

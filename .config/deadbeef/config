@@ -17,14 +17,14 @@ cli_add_playlist_name Default
 deadbeef_version 1.9.6
 filechooser.lastdir file:///home/leroy/music
 gtkui.action_separators 0
-gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"27","align":"0","color_override":"0","color":"#ff000000"},{"title":"No","id":"-1","format":"%tracknumber%","sort_format":"","size":"34","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"540","align":"0","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"264","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"92","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"27","align":"0","color_override":"0","color":"#ff000000"},{"title":"No","id":"-1","format":"%tracknumber%","sort_format":"","size":"34","align":"0","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"264","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"540","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"92","align":"0","color_override":"0","color":"#ff000000"}]
 gtkui.columns.search [{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
 gtkui.custom_tray_icon deadbeef_tray_icon
 gtkui.delete_files_ask 1
 gtkui.disable_seekbar_overlay 0
 gtkui.embolden_current_track 0
 gtkui.font.listview_text Iosevka Nerd Font 12
-gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.777020 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.751346 pos=0 size2=0","children":[{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1482"},{"type":"musical_spectrum"}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.452099 pos=0 size2=0","children":[{"type":"coverart","settings":{"mode":"selected"}},{"type":"selproperties","settings":{"section":"metadata","showheaders":"0"}}]}]}]}
+gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.718258 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.681378 pos=0 size2=0","children":[{"type":"playlist","legacy_params":" hideheaders=0 width=1369"},{"type":"musical_spectrum"}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.452099 pos=0 size2=0","children":[{"type":"coverart","settings":{"mode":"playing"}},{"type":"selproperties","settings":{"section":"metadata","showheaders":"0"}}]}]}]}
 gtkui.override_listview_colors 0
 gtkui.override_tabstrip_colors 0
 gtkui.playlist.group_by_tf 
@@ -140,11 +140,11 @@ musical_spectrum.window 1
 network.proxy.port 8080
 output_plugin alsa
 playback.loop 1
-playback.volume.normalized 0.0838158
+playback.volume.normalized 0.0735248
 playlist.current 0
-playlist.cursor.0 5
+playlist.cursor.0 0
 playlist.cursor.1 0
-playlist.scroll.0 -5
+playlist.scroll.0 -1
 playlist.scroll.1 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Default
