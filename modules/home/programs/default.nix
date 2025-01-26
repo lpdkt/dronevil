@@ -1,0 +1,20 @@
+{
+  imports = [
+    ./browser.nix
+    ./common.nix
+    ./dev.nix
+    ./email.nix
+    ./gaming.nix
+    ./git.nix
+    ./imv.nix
+    ./media.nix
+    ./mpv.nix
+    ./music.nix
+    ./neovim
+    ./safety.nix
+    ./tmux.nix
+    ./xdg.nix
+    ./yazi.nix
+    ./zathura.nix
+  ];
+}
