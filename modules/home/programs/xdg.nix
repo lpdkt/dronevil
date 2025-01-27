@@ -53,6 +53,7 @@
             "application/x-extension-xhtml" = [ browser ];
             "application/x-extension-xht" = [ browser ];
             "x-scheme-handler/magnet" = [ "qbittorrent.desktop" ];
+            "application/vnd.oasis.opendocument.text" = [ "libreoffice-writer.desktop" ];
             "application/vnd.openxmlformats-officedocument.wordprocessingml.document" = [
               "libreoffice-writer.desktop"
             ];

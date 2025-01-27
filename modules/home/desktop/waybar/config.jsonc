@@ -5,7 +5,7 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 15,
+    "height": 30,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpris"],
     "modules-right": ["cpu", "memory", "pulseaudio","pulseaudio#microphone", "clock", "tray"],

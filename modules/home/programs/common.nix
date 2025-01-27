@@ -16,7 +16,6 @@
     yt-dlp
     gallery-dl
     ffmpeg-full
-    fzf
     ripgrep
     jq
     yq-go
@@ -28,18 +27,18 @@
     gawk
     zstd
     gnupg
-    glow
     zip
     xz
     unzip
     p7zip
+    glow
 
     # System info
     bottom
     btop
     fastfetch
-    pfetch
     neofetch
+    nitch
     gdu
     gparted
   ];

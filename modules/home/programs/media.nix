@@ -8,7 +8,9 @@
   };
 
   home.packages = with pkgs; [
-    (discord.override { withVencord = true; })
+    (discord.override {
+      withVencord = true;
+    })
     calibre
     koreader
     kdePackages.kdenlive
@@ -19,5 +21,6 @@
     qbittorrent
     vlc
     libreoffice
+    obsidian
   ];
 }

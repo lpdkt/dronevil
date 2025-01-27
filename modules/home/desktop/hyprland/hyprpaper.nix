@@ -3,8 +3,8 @@
     enable = true;
     settings = {
       splash = false;
-      preload = [ "~/pictures/wallpaper/mima.png" ];
-      wallpaper = [ "HDMI-A-1,~/pictures/wallpaper/mima.png" ];
+      preload = [ "~/pictures/wallpaper/mima2.png" ];
+      wallpaper = [ "DP-1,~/pictures/wallpaper/mima2.png" ];
     };
   };
 }

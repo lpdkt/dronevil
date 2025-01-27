@@ -62,13 +62,25 @@ return {
       }
     })
 
-    lsp.nil_ls.setup({
+    lsp.nixd.setup({
       capabilities = capabilities,
+      cmd = {"nixd"},
       settings = {
-        ['nil'] = {
+        nixd = {
+          nixpkgs = {
+            expr = "import <nixpkgs> {}",
+          },
           formatting = {
             command = {"nixfmt"}
           },
+          options = {
+            nixos = {
+               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/smile)).nixosConfigurations.smile.options',
+            },
+            home_manager = {
+               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/smile)).homeConfigurations."leroy@smile".options',
+            },
+         },
         },
       },
     })

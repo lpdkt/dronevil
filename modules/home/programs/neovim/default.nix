@@ -14,10 +14,10 @@
     gopls
     clang-tools
     lua-language-server
-    nil
-    markdownlint-cli
+    nixd
     deadnix
-    stylua
     nixfmt-rfc-style
+    markdownlint-cli
+    stylua
   ];
 }

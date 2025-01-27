@@ -2,6 +2,8 @@
 {
   programs.tmux = {
     enable = true;
+    shell = "${pkgs.zsh}/bin/zsh";
+    terminal = "foot";
     mouse = true;
     prefix = "C-a";
     baseIndex = 1;
@@ -24,7 +26,6 @@
     ];
 
     extraConfig = ''
-      set-option -sa terminal-overrides ",foot*:Tc"
       set -g status on
       unbind C-b
       bind-key C-a send-prefix

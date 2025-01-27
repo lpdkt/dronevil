@@ -4,7 +4,7 @@
     settings = {
       global = {
         # Non-default settings
-        width = "(100,250)";
+        width = "250";
         height = "(75,150)";
         origin = "bottom-right";
         offset = "30x30";

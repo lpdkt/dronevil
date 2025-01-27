@@ -77,10 +77,7 @@
         "GDK_BACKEND,wayland,x11,*"
       ];
 
-      windowrule = [
-        "float,^(thunar)$"
-        "size 1000 750,^(thunar)$"
-      ];
+      windowrule = [ ];
 
       windowrulev2 = [
         "noblur,title:^()$,class:^()$"
@@ -98,6 +95,8 @@
         "$mainMod, P, pseudo,"
         "$mainMod, U, togglesplit,"
         "$mainMod SHIFT, P, exec, pavucontrol"
+        "$mainMod, M , exec, pamixer --default-source -t"
+        "$mainMod SHIFT, M , exec, pamixer -t"
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
@@ -108,6 +107,12 @@
         "$mainMod, l, movefocus, r"
         "$mainMod, k, movefocus, u"
         "$mainMod, j, movefocus, d"
+
+        # Swap windows
+        "$mainMod SHIFT, h, movewindow, l"
+        "$mainMod SHIFT, l, movewindow, r"
+        "$mainMod SHIFT, k, movewindow, u"
+        "$mainMod SHIFT, j, movewindow, d"
 
         # Workspace switching
         "$mainMod, 1, workspace, 1"

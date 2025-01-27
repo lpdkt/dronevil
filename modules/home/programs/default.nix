@@ -12,7 +12,6 @@
     ./music.nix
     ./neovim
     ./safety.nix
-    ./tmux.nix
     ./xdg.nix
     ./yazi.nix
     ./zathura.nix

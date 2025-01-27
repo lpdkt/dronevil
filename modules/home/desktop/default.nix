@@ -19,5 +19,6 @@
     pavucontrol
     pamixer
     playerctl
+    brightnessctl
   ];
 }

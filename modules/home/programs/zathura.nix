@@ -5,6 +5,7 @@
       f = "toggle_fullscreen";
     };
     options = {
+      selection-clipboard = "clipboard";
       notification-error-bg = "#f7768e";
       notification-error-fg = "#c0caf5";
       notification-warning-bg = "#e0af68";

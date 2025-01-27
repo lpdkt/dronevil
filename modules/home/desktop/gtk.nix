@@ -17,7 +17,6 @@
     };
     font = {
       name = "Iosevka Nerd Font";
-      size = 10;
     };
     gtk3.extraConfig = {
       Settings = ''

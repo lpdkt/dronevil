@@ -3,13 +3,14 @@
     enable = true;
     settings = {
       main = {
-        font = "Iosevka Nerd Font:size=13";
+        font = "Iosevka Nerd Font:size=12";
         icon-theme = "kora";
         width = 60;
         lines = 8;
         line-height = 30;
         horizontal-pad = 20;
         terminal = "foot -e";
+        dpi-aware = "no";
       };
 
       colors = {
