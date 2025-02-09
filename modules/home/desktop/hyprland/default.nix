@@ -17,15 +17,13 @@
       "$menu" = "fuzzel";
       "$browser" = "firefox";
 
-      monitor = [
-        ",preferred,auto,auto"
+      exec-once = [
+        "waybar"
+        "mpdscribble"
       ];
 
-      exec-once = [
-        "waybar & hyprpaper"
-        "nm-applet"
-        "gammastep -O 3400"
-        "dunst"
+      monitor = [
+        ",preferred,auto,auto"
       ];
 
       input = {
@@ -113,6 +111,12 @@
         "$mainMod SHIFT, l, movewindow, r"
         "$mainMod SHIFT, k, movewindow, u"
         "$mainMod SHIFT, j, movewindow, d"
+
+        # Resize Windows
+        "$mainMod ALT, l, resizeactive, 30 0"
+        "$mainMod ALT, h, resizeactive, -30 0"
+        "$mainMod ALT, k, resizeactive, 0 -30"
+        "$mainMod ALT, j, resizeactive, 0 30"
 
         # Workspace switching
         "$mainMod, 1, workspace, 1"

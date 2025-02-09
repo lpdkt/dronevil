@@ -41,8 +41,10 @@
             "audio/mpeg" = [ music-player ];
             "audio/flac" = [ music-player ];
             "audio/ogg" = [ music-player ];
-            "application/epub" = [ "koreader.desktop" ];
+            "audio/wav" = [ music-player ];
+            "application/epub+zip" = [ "koreader.desktop" ];
             "application/zip" = [ "ark.desktop" ];
+            "application/x-zip-compressed" = [ "ark.desktop" ];
             "x-scheme-handler/http" = [ browser ];
             "x-scheme-handler/https" = [ browser ];
             "x-scheme-handler/chrome" = [ browser ];

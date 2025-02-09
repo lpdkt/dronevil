@@ -7,8 +7,8 @@
       package = pkgs.tokyonight-gtk-theme;
     };
     iconTheme = {
-      name = "kora";
-      package = pkgs.kora-icon-theme;
+      name = "Papirus";
+      package = pkgs.papirus-icon-theme;
     };
     cursorTheme = {
       name = "Adwaita";
@@ -32,8 +32,5 @@
 
   home.packages = with pkgs; [
     gtk-engine-murrine
-    adwaita-icon-theme
-    tokyonight-gtk-theme
-    kora-icon-theme
   ];
 }

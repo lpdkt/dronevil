@@ -7,10 +7,9 @@
         font = "IosevkaTerm Nerd Font:size=12";
         font-size-adjustment = "2.0";
         pad = "4x4 center";
-        initial-window-size-pixels = "500x500";
       };
       colors = {
-        alpha = "0.9";
+        alpha = "1.0";
         background = "1a1b26";
         foreground = "c0caf5";
         regular0 = "15161E";
@@ -30,8 +29,7 @@
         bright6 = "7dcfff";
         bright7 = "c0caf5";
       };
-
-      "key-bindings" = {
+      key-bindings = {
         fullscreen = "F11";
       };
     };

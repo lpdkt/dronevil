@@ -4,7 +4,7 @@
     settings = {
       main = {
         font = "Iosevka Nerd Font:size=12";
-        icon-theme = "kora";
+        icon-theme = "Papirus";
         width = 60;
         lines = 8;
         line-height = 30;
@@ -12,7 +12,6 @@
         terminal = "foot -e";
         dpi-aware = "no";
       };
-
       colors = {
         background = "16161eff";
         text = "c0caf5ff";
@@ -22,7 +21,6 @@
         selection-text = "c0caf5ff";
         border = "7aa2f7aa";
       };
-
       border = {
         width = 2;
       };

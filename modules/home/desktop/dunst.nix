@@ -3,11 +3,10 @@
     enable = true;
     settings = {
       global = {
-        # Non-default settings
         width = "250";
         height = "(75,150)";
         origin = "bottom-right";
-        offset = "30x30";
+        offset = "(30, 30)";
         alignment = "center";
         notification_limit = 20;
         progress_bar_height = 10;
