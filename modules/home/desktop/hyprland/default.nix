@@ -17,11 +17,6 @@
       "$menu" = "fuzzel";
       "$browser" = "firefox";
 
-      exec-once = [
-        "waybar"
-        "mpdscribble"
-      ];
-
       monitor = [
         ",preferred,auto,auto"
       ];

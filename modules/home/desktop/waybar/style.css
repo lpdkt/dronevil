@@ -30,7 +30,6 @@ tooltip {
 
 #workspaces button.active {
   color: #89b4fa;
-  background: #1a1b26;
 }
 
 #workspaces button.focused {
@@ -47,9 +46,7 @@ tooltip {
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
-  border-radius: 17px;
+  border-radius: 7px;
 }
 
 /* #custom-power_profile, */
@@ -187,16 +184,19 @@ tooltip {
 }
 
 #mpris {
+  color: #a9b1d6;
   border-radius: 7px;
   margin-right: 5px;
   border-right: 0px;
 }
 
 #mpris.paused {
+  color: #a9b1d6;
   border-bottom: 2px solid @yellow;
 }
 
 #mpd {
+  color: #a9b1d6;
   border-radius: 7px;
   margin-right: 5px;
   border-right: 0px;
