@@ -21,5 +21,5 @@ image viewer: `imv` \
 pdf viewer: `zathura` \
 screenshot tool: `grim + slurp` \
 screen recording: `obs` \
-music player: `spotify & deadbeef` \
+music player: `spotify & mpd+rmpc & deadbeef` \
 email: `thunderbird`
