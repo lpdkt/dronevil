@@ -6,7 +6,6 @@
 
   wayland.windowManager.hyprland = {
     enable = true;
-    systemd.enable = true;
     xwayland.enable = true;
 
     settings = {
@@ -16,6 +15,11 @@
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
       "$browser" = "firefox";
+
+      exec-once = [
+        "waybar"
+        "mpdscribble"
+      ];
 
       monitor = [
         ",preferred,auto,auto"

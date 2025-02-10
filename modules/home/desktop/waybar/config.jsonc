@@ -135,7 +135,10 @@
       "format": "{stateIcon} {artist} - {title}",
       "format-disconnected": "Disconnected ",
       "format-stopped": "{stateIcon} {artist} - {title}",
-      "interval": 2,
+      "format-stopped": "",
+      "format-empty": "",
+      "interval": 1,
+      "on-click": "mpc toggle",
       "consume-icons": {
         "on": " " // Icon shows only when "consume" is on
       },

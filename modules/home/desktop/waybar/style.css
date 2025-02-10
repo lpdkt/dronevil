@@ -30,6 +30,7 @@ tooltip {
 
 #workspaces button.active {
   color: #89b4fa;
+  background: #1a1b26;
 }
 
 #workspaces button.focused {
@@ -46,7 +47,9 @@ tooltip {
 }
 
 #workspaces button:hover {
-  border-radius: 7px;
+  background: #11111b;
+  color: #c0caf5;
+  border-radius: 17px;
 }
 
 /* #custom-power_profile, */
@@ -184,19 +187,19 @@ tooltip {
 }
 
 #mpris {
-  color: #a9b1d6;
+  color: #c0caf5;
   border-radius: 7px;
   margin-right: 5px;
   border-right: 0px;
 }
 
 #mpris.paused {
-  color: #a9b1d6;
+  color: #c0caf5;
   border-bottom: 2px solid @yellow;
 }
 
 #mpd {
-  color: #a9b1d6;
+  color: #c0caf5;
   border-radius: 7px;
   margin-right: 5px;
   border-right: 0px;
