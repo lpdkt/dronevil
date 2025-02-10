@@ -18,6 +18,7 @@
     mpc
     mpdscribble
     rmpc
+    spotify-player
     deadbeef
     nicotine-plus
     puddletag
