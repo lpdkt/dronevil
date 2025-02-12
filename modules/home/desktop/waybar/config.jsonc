@@ -7,7 +7,7 @@
     "gtk-layer-shell": true,
     "height": 30,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["mpris", "mpd"],
+    "modules-center": ["mpris"],
     "modules-right": ["cpu", "memory", "pulseaudio","pulseaudio#microphone", "clock", "tray"],
     "hyprland/window": {
         "format": "{}"
@@ -124,6 +124,7 @@
         "default": "▶",
         "mpv": "🎵",
         "spotify": " ",
+        "spotify-player": " ",
         "firefox": "",
       },
       "status-icons": {

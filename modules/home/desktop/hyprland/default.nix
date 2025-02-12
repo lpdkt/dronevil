@@ -94,6 +94,13 @@
         "$mainMod SHIFT, P, exec, pavucontrol"
         "$mainMod, M , exec, pamixer --default-source -t"
         "$mainMod SHIFT, M , exec, pamixer -t"
+        "$mainMod, F7 , exec, playerctl volume 0.05-"
+        "$mainMod, F8 , exec, playerctl volume 0.05+"
+        "$mainMod, F9 , exec, playerctl play-pause"
+        "$mainMod, F10, exec, playerctl previous"
+        "$mainMod, F11, exec, playerctl next"
+        "$mainMod, F12, exec, playerctl stop"
+
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
