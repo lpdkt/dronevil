@@ -89,6 +89,7 @@ return {
       sources = {
         null_ls.builtins.diagnostics.markdownlint,
         null_ls.builtins.diagnostics.deadnix,
+        null_ls.builtins.diagnostics.golangci_lint,
         null_ls.builtins.formatting.stylua,
       },
     })

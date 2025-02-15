@@ -7,6 +7,7 @@
     lutris
     (retroarch.withCores (
       libretro: with libretro; [
+        vba-m
         citra
         desmume
       ]

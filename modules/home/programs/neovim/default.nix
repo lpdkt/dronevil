@@ -12,6 +12,7 @@
   # ls, fmt, linters
   home.packages = with pkgs; [
     gopls
+    golangci-lint
     clang-tools
     lua-language-server
     nixd

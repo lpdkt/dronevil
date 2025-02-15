@@ -26,7 +26,6 @@
                 useUserPackages = true;
                 users.leroy = import ./modules/home;
                 extraSpecialArgs = { inherit inputs; };
-                backupFileExtension = "backup";
               };
             }
           ];

@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   services = {
     pipewire = {
@@ -12,6 +13,15 @@
     getty = {
       autologinUser = "leroy";
       helpLine = "";
+    };
+    printing = {
+      enable = true;
+      drivers = [ pkgs.cnijfilter2 ];
+    };
+    avahi = {
+      enable = true;
+      nssmdns4 = true;
+      openFirewall = true;
     };
   };
 }
