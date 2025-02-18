@@ -9,9 +9,19 @@
     xfce.thunar-archive-plugin
     xfce.tumbler
     xfce.xfconf
-    ark
 
-    # CLI
+    # safety
+    mullvad-vpn
+    bitwarden
+    keepassxc
+
+    # dev
+    python3
+    lua
+    lazygit
+    docker
+
+    # cli
     distrobox
     yt-dlp
     gallery-dl
@@ -33,12 +43,10 @@
     p7zip
     glow
 
-    # System info
-    bottom
+    # system info
     btop
     fastfetch
     neofetch
-    nitch
     gdu
     gparted
   ];

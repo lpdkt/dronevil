@@ -7,6 +7,7 @@
 
   home = {
     sessionVariables = {
+      TERMINAL = "foot";
       EDITOR = "nvim";
       SHELL = "zsh";
     };

@@ -43,8 +43,6 @@
             "audio/ogg" = [ music-player ];
             "audio/wav" = [ music-player ];
             "application/epub+zip" = [ "koreader.desktop" ];
-            "application/zip" = [ "org.kde.ark.desktop" ];
-            "application/x-zip-compressed" = [ "org.kde.ark.desktop" ];
             "x-scheme-handler/http" = [ browser ];
             "x-scheme-handler/https" = [ browser ];
             "x-scheme-handler/chrome" = [ browser ];

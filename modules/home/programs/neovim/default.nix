@@ -9,16 +9,12 @@
     "nvim/lua".source = ./config/lua;
   };
 
-  # ls, fmt, linters
+  # ls, fmt, linters only for config
   home.packages = with pkgs; [
-    gopls
-    golangci-lint
-    clang-tools
-    lua-language-server
     nixd
     deadnix
     nixfmt-rfc-style
-    markdownlint-cli
+    lua-language-server
     stylua
   ];
 }

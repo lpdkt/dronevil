@@ -10,6 +10,13 @@
       enable = true;
       enableCompletion = true;
     };
-    fzf.enable = true;
+    fzf = {
+      enable = true;
+      enableZshIntegration = true;
+      defaultOptions = [
+        "--layout reverse"
+        "--height 20%"
+      ];
+    };
   };
 }

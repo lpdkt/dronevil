@@ -101,7 +101,6 @@
         "$mainMod, F11, exec, playerctl next"
         "$mainMod, F12, exec, playerctl stop"
 
-
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
         "$mainMod SHIFT, S, exec, grim -g \"$(slurp)\" - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
