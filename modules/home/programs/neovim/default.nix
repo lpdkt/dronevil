@@ -16,5 +16,6 @@
     nixfmt-rfc-style
     lua-language-server
     stylua
+    markdownlint-cli
   ];
 }
