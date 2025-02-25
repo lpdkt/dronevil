@@ -1,7 +1,5 @@
 return {
-  'mbbill/undotree',
   'tpope/vim-fugitive',
-  -- 'github/copilot.vim',
 
   { 'wakatime/vim-wakatime', lazy = false },
 

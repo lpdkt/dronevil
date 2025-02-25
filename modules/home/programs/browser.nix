@@ -2,14 +2,12 @@
 {
   programs.firefox = {
     enable = true;
-     policies = {
+    policies = {
       DownloadDirectory = "\${home}/downloads";
       OfferToSaveLogins = false;
       PromptForDownloadLocation = true;
     };
   };
 
-  home.packages = with pkgs; [
-    chromium
-  ];
+  home.packages = with pkgs; [ chromium ];
 }

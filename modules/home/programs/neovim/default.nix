@@ -9,8 +9,10 @@
     "nvim/lua".source = ./config/lua;
   };
 
-  # ls, fmt, linters only for config
+  # ls, fmt, linters
   home.packages = with pkgs; [
+    gopls
+    clang-tools
     nixd
     deadnix
     nixfmt-rfc-style

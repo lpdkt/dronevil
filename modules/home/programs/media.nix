@@ -21,6 +21,5 @@
     qbittorrent
     vlc
     libreoffice
-    obsidian
   ];
 }

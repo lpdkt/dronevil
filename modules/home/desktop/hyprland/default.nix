@@ -92,9 +92,9 @@
         "$mainMod, P, pseudo,"
         "$mainMod, U, togglesplit,"
         "$mainMod SHIFT, P, exec, pavucontrol"
-        "$mainMod, M , exec, pamixer --default-source -t"
-        "$mainMod SHIFT, M , exec, pamixer -t"
-        "$mainMod, F7 , exec, playerctl volume 0.05-"
+        "$mainMod, M , exec, pamixer --default-source -t" # mute mic
+        "$mainMod SHIFT, M , exec, pamixer -t" # mute sound
+        "$mainMod, F7 , exec, playerctl volume 0.05-" 
         "$mainMod, F8 , exec, playerctl volume 0.05+"
         "$mainMod, F9 , exec, playerctl play-pause"
         "$mainMod, F10, exec, playerctl previous"
