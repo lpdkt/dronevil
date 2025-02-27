@@ -16,7 +16,6 @@
         + "$git_status"
         + "$nix_shell"
         + "$docker_context"
-        + "$package"
         + "$line_break"
         + "$jobs"
         + "$container"

@@ -14,16 +14,6 @@
       '';
     };
     mpd-mpris.enable = true;
-    mpd-discord-rpc = {
-      enable = true;
-      settings = {
-        format = {
-          details = "$title";
-          state = "$artist / $album";
-          small_image = "";
-        };
-      };
-    };
   };
 
   home.packages = with pkgs; [

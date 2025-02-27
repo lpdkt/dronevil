@@ -9,5 +9,8 @@
     };
   };
 
-  home.packages = with pkgs; [ chromium ];
+  home.packages = with pkgs; [
+    chromium
+    tor-browser
+  ];
 }
