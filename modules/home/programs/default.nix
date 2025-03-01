@@ -2,6 +2,7 @@
   imports = [
     ./browser.nix
     ./common.nix
+    ./direnv.nix
     ./email.nix
     ./gaming.nix
     ./git.nix

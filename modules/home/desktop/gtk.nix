@@ -7,7 +7,7 @@
       package = pkgs.tokyonight-gtk-theme;
     };
     iconTheme = {
-      name = "Papirus";
+      name = "Papirus-Dark";
       package = pkgs.papirus-icon-theme;
     };
     cursorTheme = {
