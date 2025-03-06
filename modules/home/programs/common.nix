@@ -6,9 +6,8 @@
     # files
     xfce.thunar
     xfce.thunar-volman
-    xfce.thunar-archive-plugin
     xfce.tumbler
-    xfce.xfconf
+    ffmpegthumbnailer
 
     # safety
     mullvad-vpn
@@ -46,7 +45,7 @@
     # system info
     btop
     fastfetch
-    neofetch
+    nitch
     gdu
     gparted
   ];

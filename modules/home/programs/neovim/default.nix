@@ -13,6 +13,7 @@
   home.packages = with pkgs; [
     gopls
     clang-tools
+    typescript-language-server
     nixd
     deadnix
     nixfmt-rfc-style

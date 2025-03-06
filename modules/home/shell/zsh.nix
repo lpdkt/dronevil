@@ -32,7 +32,6 @@
       extended = true;
       ignoreDups = true;
     };
-    defaultKeymap = "emacs";
 
     shellAliases = {
       vim = "nvim";

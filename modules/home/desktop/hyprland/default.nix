@@ -14,16 +14,14 @@
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "firefox";
+      "$browser" = "librewolf";
 
       exec-once = [
         "waybar"
         "mpdscribble"
       ];
 
-      monitor = [
-        ",preferred,auto,auto"
-      ];
+      monitor = [ ",preferred,auto,auto" ];
 
       input = {
         kb_layout = "eu";
@@ -76,9 +74,7 @@
 
       windowrule = [ ];
 
-      windowrulev2 = [
-        "noblur,title:^()$,class:^()$"
-      ];
+      windowrulev2 = [ "noblur,title:^()$,class:^()$" ];
 
       bind = [
         "$mainMod, return, exec, $terminal"
@@ -100,6 +96,7 @@
         "$mainMod, F10, exec, playerctl previous"
         "$mainMod, F11, exec, playerctl next"
         "$mainMod, F12, exec, playerctl stop"
+        "$mainMod, Y, exec, ytmpv" # play yt video with mpd
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"

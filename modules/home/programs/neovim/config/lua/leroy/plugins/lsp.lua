@@ -51,6 +51,10 @@ return {
       capabilities = capabilities,
     })
 
+    lsp.ts_ls.setup({
+      capabilities = capabilities,
+    })
+
     lsp.lua_ls.setup({
       capabilities = capabilities,
       settings = {

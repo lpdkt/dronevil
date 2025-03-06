@@ -12,7 +12,7 @@ return {
         ["g."] = "actions.toggle_hidden",
       },
       use_default_keymaps = true,
-      vim.keymap.set("n", "<leader>ft", "<cmd>Oil<CR>")
+      vim.keymap.set("n", "<leader>ft", "<cmd>Oil --float<CR>")
     })
   end
 }

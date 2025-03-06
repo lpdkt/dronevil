@@ -11,6 +11,7 @@
     (discord.override {
       withVencord = true;
     })
+    vesktop
     calibre
     koreader
     kdePackages.kdenlive

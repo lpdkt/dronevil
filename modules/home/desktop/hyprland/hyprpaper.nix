@@ -3,8 +3,8 @@
     enable = true;
     settings = {
       splash = false;
-      preload = [ "~/pictures/wallpaper/mima2.png" ];
-      wallpaper = [ "DP-1,~/pictures/wallpaper/mima2.png" ];
+      preload = [ "~/smile/modules/home/desktop/hyprland/wallpaper/mima-1440.png" ];
+      wallpaper = [ "DP-1,~/smile/modules/home/desktop/hyprland/wallpaper/mima-1440.png" ];
     };
   };
 }

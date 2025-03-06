@@ -1,11 +1,13 @@
 { pkgs, ... }:
 {
-  programs.firefox = {
+  programs.librewolf = {
     enable = true;
     policies = {
       DownloadDirectory = "\${home}/downloads";
       OfferToSaveLogins = false;
       PromptForDownloadLocation = true;
+      DisableTelemetry = true;
+      DisplayBookmarksToolbar = "never";
     };
   };
 
