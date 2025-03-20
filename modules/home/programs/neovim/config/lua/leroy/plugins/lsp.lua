@@ -51,6 +51,10 @@ return {
       capabilities = capabilities,
     })
 
+    lsp.pyright.setup({
+      capabilities = capabilities,
+    })
+
     lsp.ts_ls.setup({
       capabilities = capabilities,
     })
@@ -79,10 +83,10 @@ return {
           },
           options = {
             nixos = {
-               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/smile)).nixosConfigurations.smile.options',
+               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/noise)).nixosConfigurations.noise.options',
             },
             home_manager = {
-               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/smile)).homeConfigurations."leroy@smile".options',
+               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/noise)).homeConfigurations."leroy@noise".options',
             },
          },
         },

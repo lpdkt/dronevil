@@ -13,11 +13,11 @@
     inputs@{ nixpkgs, home-manager, ... }:
     {
       nixosConfigurations = {
-        smile = nixpkgs.lib.nixosSystem {
+        noise = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           system = "x86_64-linux";
           modules = [
-            ./hosts/smile
+            ./hosts/noise
             ./modules
             home-manager.nixosModules.home-manager
             {

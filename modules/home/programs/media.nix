@@ -12,6 +12,7 @@
       withVencord = true;
     })
     vesktop
+    obsidian
     calibre
     koreader
     kdePackages.kdenlive

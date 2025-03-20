@@ -4,5 +4,5 @@
     ./mount.nix
     ./users.nix
   ];
-  networking.hostName = "smile";
+  networking.hostName = "noise";
 }

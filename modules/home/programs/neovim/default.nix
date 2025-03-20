@@ -14,6 +14,7 @@
     gopls
     clang-tools
     typescript-language-server
+    pyright
     nixd
     deadnix
     nixfmt-rfc-style
