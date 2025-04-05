@@ -25,7 +25,14 @@
         kb_layout = "eu";
         kb_options = "caps:escape";
         follow_mouse = 1;
-        sensitivity = 0;
+        sensitivity = 0.0;
+        touchpad = {
+          natural_scroll = true;
+        };
+      };
+
+      gestures = {
+        workspace_swipe = true;
       };
 
       general = {
@@ -129,6 +136,7 @@
         "$mainMod, 8, workspace, 8"
         "$mainMod, 9, workspace, 9"
         "$mainMod, 0, workspace, 10"
+        "$mainMod, TAB, workspace, previous" # jump to last used workspace
 
         # Move windows to workspaces
         "$mainMod SHIFT, 1, movetoworkspace, 1"

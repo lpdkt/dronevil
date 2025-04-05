@@ -30,6 +30,23 @@
             }
           ];
         };
+        fade = nixpkgs.lib.nixosSystem {
+          specialArgs = { inherit inputs; };
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/fade
+            ./modules
+            home-manager.nixosModules.home-manager
+            {
+              home-manager = {
+                useGlobalPkgs = true;
+                useUserPackages = true;
+                users.leroy = import ./modules/home;
+                extraSpecialArgs = { inherit inputs; };
+              };
+            }
+          ];
+        };
       };
     };
 }

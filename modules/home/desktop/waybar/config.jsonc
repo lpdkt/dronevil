@@ -8,7 +8,7 @@
     "height": 30,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["mpris"],
-    "modules-right": ["cpu", "memory", "pulseaudio","pulseaudio#microphone", "clock", "tray"],
+    "modules-right": ["battery", "cpu", "memory", "pulseaudio","pulseaudio#microphone", "clock", "tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -60,7 +60,6 @@
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
     },
 
     "pulseaudio": {

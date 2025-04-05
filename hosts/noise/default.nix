@@ -5,4 +5,5 @@
     ./users.nix
   ];
   networking.hostName = "noise";
+  boot.initrd.kernelModules = [ "amdgpu" ];
 }
