@@ -14,4 +14,8 @@
       packages = with pkgs; [ ];
     };
   };
+  services.getty = {
+    autologinUser = "leroy";
+    helpLine = "";
+  };
 }

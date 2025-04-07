@@ -11,10 +11,6 @@
     };
     mullvad-vpn.enable = true;
     gvfs.enable = true;
-    getty = {
-      autologinUser = "leroy";
-      helpLine = "";
-    };
     printing = {
       enable = true;
       drivers = [ pkgs.cnijfilter2 ];

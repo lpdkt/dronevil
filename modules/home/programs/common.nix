@@ -15,9 +15,11 @@
     keepassxc
 
     # dev
+    gcc
     python3
     lua
     lazygit
+    lazydocker
     docker
 
     # cli
