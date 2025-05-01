@@ -26,6 +26,5 @@
   home.packages = with pkgs; [
     chromium
     brave
-    tor-browser
   ];
 }

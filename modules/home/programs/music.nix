@@ -20,10 +20,11 @@
     spotify
     mpc
     mpdscribble
+    ncmpcpp
     rmpc
-    spotify-player
     deadbeef
     nicotine-plus
     puddletag
+    asunder
   ];
 }

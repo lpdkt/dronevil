@@ -95,13 +95,13 @@
         "$mainMod SHIFT, P, exec, pavucontrol"
         "$mainMod, M , exec, pamixer --default-source -t" # mute mic
         "$mainMod SHIFT, M , exec, pamixer -t" # mute sound
-        "$mainMod, F7 , exec, playerctl volume 0.05-" 
+        "$mainMod, F7 , exec, playerctl volume 0.05-"
         "$mainMod, F8 , exec, playerctl volume 0.05+"
         "$mainMod, F9 , exec, playerctl play-pause"
         "$mainMod, F10, exec, playerctl previous"
         "$mainMod, F11, exec, playerctl next"
         "$mainMod, F12, exec, playerctl stop"
-        "$mainMod ALT, M, exec, foot -e rmpc"
+        "$mainMod ALT, M, exec, $terminal -e rmpc"
         "$mainMod, Y, exec, ytmpv" # play yt video with mpd
 
         # Screenshot bindings

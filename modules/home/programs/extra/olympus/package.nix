@@ -35,7 +35,7 @@ let
         pname = "lsqlite3";
         version = "0.9.6-1";
         src = fetchzip {
-          url = "http://lua.sqlite.org/index.cgi/zip/lsqlite3_v096.zip";
+          url = "http://lua.sqlite.org/home/zip/lsqlite3_v096.zip";
           hash = "sha256-Mq409A3X9/OS7IPI/KlULR6ZihqnYKk/mS/W/2yrGBg=";
         };
         buildInputs = [ sqlite.dev ];
@@ -76,9 +76,9 @@ let
   pname = "olympus";
   phome = "$out/lib/${pname}";
   # The following variables are to be updated by the update script.
-  version = "24.12.28.01";
-  buildId = "4546"; # IMPORTANT: This line is matched with regex in update.sh.
-  rev = "06efd3c0b31dbb0c7c2e45dd8fc8c95d33422f16";
+  version = "25.02.07.01";
+  buildId = "4624"; # IMPORTANT: This line is matched with regex in update.sh.
+  rev = "f4cd9dc973e68dc9b6c043941d5ab57f93b63ac4";
 
 in
 buildDotnetModule {
@@ -89,7 +89,7 @@ buildDotnetModule {
     owner = "EverestAPI";
     repo = "Olympus";
     fetchSubmodules = true; # Required. See upstream's README.
-    hash = "sha256-7DolR4JewCmpPTznK9B++zK6/mQhiNxthClGbOjXNyI=";
+    hash = "sha256-I0tDqe7XvieL0kj8njzaNx3taY2VpFewi/SnYRCi4tk=";
   };
 
   nativeBuildInputs = [

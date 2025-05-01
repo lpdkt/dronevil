@@ -18,7 +18,7 @@
       export PATH
     '';
 
-    initExtra = ''
+    initContent = ''
       zstyle ':completion:*' list-colors "''${(s.:.)LS_COLORS}"
     '';
 
