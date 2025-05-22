@@ -4,7 +4,7 @@
     config = {
       volume = 65;
       ytdl-format = "bestvideo+bestaudio";
-      ytdl-raw-options = "sub-lang=en,write-subs=";
+      ytdl-raw-options = "sub-lang=en,write-subs=,cookies=~/documents/youtube-cookies.txt";
       slang = "en";
     };
     bindings = {

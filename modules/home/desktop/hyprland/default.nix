@@ -12,12 +12,9 @@
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "firefox";
+      "$browser" = "librewolf";
 
-      exec-once = [
-        "waybar"
-        "mpdscribble"
-      ];
+      exec-once = [ "waybar" ];
 
       monitor = [ ",preferred,auto,auto" ];
 
@@ -150,10 +147,6 @@
         "$mainMod SHIFT, 8, movetoworkspace, 8"
         "$mainMod SHIFT, 9, movetoworkspace, 9"
         "$mainMod SHIFT, 0, movetoworkspace, 10"
-
-        # Workspace scroll
-        "$mainMod, mouse_down, workspace, e+1"
-        "$mainMod, mouse_up, workspace, e-1"
       ];
 
       # Mouse bindings

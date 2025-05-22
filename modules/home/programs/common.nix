@@ -12,7 +12,6 @@
     # safety
     mullvad-vpn
     bitwarden
-    keepassxc
 
     # dev
     gcc

@@ -14,17 +14,27 @@
       '';
     };
     mpd-mpris.enable = true;
+    mpdscribble = {
+      enable = true;
+      endpoints = {
+        "last.fm" = {
+          url = "http://post.audioscrobbler.com/";
+          username = "lpdkt";
+          passwordFile = "/home/leroy/.config/mpdscribble/lastfmpass";
+        };
+      };
+    };
   };
 
   home.packages = with pkgs; [
     spotify
     mpc
-    mpdscribble
-    ncmpcpp
     rmpc
     deadbeef
     nicotine-plus
+    picard
     puddletag
     asunder
+    streamrip
   ];
 }

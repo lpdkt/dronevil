@@ -14,7 +14,6 @@
           "Sarasa Gothic"
         ];
       };
-      subpixel.rgba = "rgb";
     };
 
     fontDir.enable = true;
@@ -31,5 +30,4 @@
       nerd-fonts.jetbrains-mono
     ];
   };
-
 }
