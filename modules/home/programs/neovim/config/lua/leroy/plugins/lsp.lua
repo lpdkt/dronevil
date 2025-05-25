@@ -123,6 +123,7 @@ return {
         header = '',
         prefix = '',
       },
+      virtual_text = true,
     })
 
     vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(

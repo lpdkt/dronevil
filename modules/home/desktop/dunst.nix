@@ -8,15 +8,11 @@
         origin = "bottom-right";
         offset = "(30, 30)";
         alignment = "center";
-        notification_limit = 20;
-        progress_bar_height = 10;
-        progress_bar_min_width = 150;
-        progress_bar_max_width = 250;
-        progress_bar_corner_radius = 5;
         icon_corner_radius = 5;
+        icon_position = "right";
         corner_radius = 5;
-        frame_width = 0;
-        gap_size = 1;
+        frame_width = 2;
+        gap_size = 2;
         font = "Iosevka Nerd Font 9";
         format = "<b>%s</b>\n%b";
         enable_recursive_icon_lookup = true;
@@ -27,13 +23,13 @@
       urgency_low = {
         background = "#16161e";
         foreground = "#c0caf5";
-        frame_color = "#c0caf5";
+        frame_color = "#5471B2";
       };
 
       urgency_normal = {
         background = "#1a1b26";
         foreground = "#c0caf5";
-        frame_color = "#c0caf5";
+        frame_color = "#5471B2";
       };
 
       urgency_critical = {

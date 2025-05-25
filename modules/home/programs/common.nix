@@ -7,6 +7,7 @@
     xfce.thunar
     xfce.thunar-volman
     xfce.tumbler
+    xfce.xfconf
     ffmpegthumbnailer
 
     # safety
@@ -49,5 +50,6 @@
     nitch
     gdu
     gparted
+    dysk
   ];
 }

@@ -7,7 +7,7 @@
     ./gammastep.nix
     ./gtk.nix
     ./hyprland
-    ./waybar
+    ./waybar.nix
   ];
 
   services = {
