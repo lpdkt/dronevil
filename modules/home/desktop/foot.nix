@@ -10,7 +10,7 @@
         gamma-correct-blending = "no";
       };
       colors = {
-        alpha = "1.0";
+        alpha = "0.85";
         background = "1a1b26";
         foreground = "c0caf5";
         regular0 = "15161E";

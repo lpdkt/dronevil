@@ -13,6 +13,7 @@
     obsidian
     calibre
     koreader
+    shotcut
     kdePackages.kdenlive
     audacity
     reaper
@@ -20,6 +21,5 @@
     gimp
     qbittorrent
     vlc
-    libreoffice
   ];
 }

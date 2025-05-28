@@ -92,14 +92,15 @@
         "$mainMod SHIFT, P, exec, pavucontrol"
         "$mainMod, M , exec, pamixer --default-source -t" # mute mic
         "$mainMod SHIFT, M , exec, pamixer -t" # mute sound
-        "$mainMod, F7 , exec, playerctl volume 0.05-"
-        "$mainMod, F8 , exec, playerctl volume 0.05+"
-        "$mainMod, F9 , exec, playerctl play-pause"
-        "$mainMod, F10, exec, playerctl previous"
-        "$mainMod, F11, exec, playerctl next"
-        "$mainMod, F12, exec, playerctl stop"
-        "$mainMod ALT, M, exec, $terminal -e rmpc"
-        "$mainMod, Y, exec, ytmpv" # play yt video with mpd
+        "$mainMod, F7, exec, playerctl previous"
+        "$mainMod, F8, exec, playerctl next"
+        "$mainMod, F9, exec, playerctl stop"
+        "$mainMod, F10 , exec, playerctl play-pause"
+        "$mainMod, F11 , exec, playerctl volume 0.05-"
+        "$mainMod, F12 , exec, playerctl volume 0.05+"
+        "$mainMod, N, exec, $terminal -e rmpc"
+        "$mainMod, Y, exec, ytmpv" 
+        "$mainMod SHIFT, Y, exec, ytdl" 
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
