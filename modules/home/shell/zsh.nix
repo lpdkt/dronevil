@@ -40,10 +40,10 @@
       q = "exit";
       media = "cd /mnt/media/";
       music = "cd /mnt/media/music";
-      vids = "cd /mnt/media/videos";
+      vids = "cd /mnt/media/vids";
       dev = "nix develop -c zsh";
       rebuild = "sudo nixos-rebuild switch --flake ~/.config/nixevil";
-      conf = "cd ~/.config/nixevil && vim .";
+      conf = "cd ~/.config/nixevil";
     };
 
     profileExtra = ''

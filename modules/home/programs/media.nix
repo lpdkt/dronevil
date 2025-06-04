@@ -21,5 +21,6 @@
     gimp
     qbittorrent
     vlc
+    telegram-desktop
   ];
 }

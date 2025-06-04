@@ -21,4 +21,15 @@
       "rw"
     ];
   };
+
+  fileSystems."/mnt/backup2TB" = {
+    device = "/dev/disk/by-uuid/6d71ce4a-4f77-43c8-8a91-5ecb1c5a8090";
+    fsType = "ext4";
+    options = [
+      "defaults"
+      "user"
+      "x-gvfs-show"
+      "rw"
+    ];
+  };
 }

@@ -3,8 +3,7 @@
     enable = true;
     settings = {
       global = {
-        width = "250";
-        height = "(75,150)";
+        width = "300";
         origin = "bottom-right";
         offset = "(30, 30)";
         alignment = "center";

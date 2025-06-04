@@ -36,5 +36,8 @@
     puddletag
     asunder
     streamrip
+    easyeffects
+    flac
+    id3
   ];
 }

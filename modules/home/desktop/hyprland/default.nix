@@ -22,7 +22,7 @@
         kb_layout = "eu";
         kb_options = "caps:escape";
         follow_mouse = 1;
-        sensitivity = 0.0;
+        sensitivity = 0.5;
         touchpad = {
           natural_scroll = true;
         };
@@ -94,10 +94,10 @@
         "$mainMod SHIFT, M , exec, pamixer -t" # mute sound
         "$mainMod, F7, exec, playerctl previous"
         "$mainMod, F8, exec, playerctl next"
-        "$mainMod, F9, exec, playerctl stop"
-        "$mainMod, F10 , exec, playerctl play-pause"
-        "$mainMod, F11 , exec, playerctl volume 0.05-"
-        "$mainMod, F12 , exec, playerctl volume 0.05+"
+        "$mainMod, F9 , exec, playerctl play-pause"
+        "$mainMod, F10 , exec, playerctl volume 0.05-"
+        "$mainMod, F11 , exec, playerctl volume 0.05+"
+        "$mainMod, F12, exec, playerctl stop"
         "$mainMod, N, exec, $terminal -e rmpc"
         "$mainMod, Y, exec, ytmpv" 
         "$mainMod SHIFT, Y, exec, ytdl" 

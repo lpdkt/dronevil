@@ -16,7 +16,7 @@
       };
     };
     settings = {
-      manager = {
+      mgr = {
         sort_dir_first = true;
         sort_by = "natural";
         sort_reverse = false;

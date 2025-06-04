@@ -7,7 +7,7 @@ return {
         "icon",
       },
       keymaps = {
-        ["q"] = "actions.close",
+        ["<C-c>"] = "actions.close",
         ["<BS>"] = "actions.parent",
         ["g."] = "actions.toggle_hidden",
       },

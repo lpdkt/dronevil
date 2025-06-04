@@ -55,6 +55,10 @@ return {
       capabilities = capabilities,
     })
 
+    lsp.rust_analyzer.setup({
+      capabilities = capabilities,
+    })
+
     lsp.ts_ls.setup({
       capabilities = capabilities,
     })
