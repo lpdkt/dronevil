@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   programs = {
-    librewolf = {
+    firefox = {
       enable = true;
       policies = {
         DownloadDirectory = "\${home}/downloads";
@@ -11,7 +11,7 @@
         DisplayBookmarksToolbar = "never";
       };
     };
-    firefox = {
+    librewolf = {
       enable = true;
       policies = {
         DownloadDirectory = "\${home}/downloads";
@@ -23,5 +23,8 @@
     };
   };
 
-  home.packages = with pkgs; [ brave ];
+  home.packages = with pkgs; [
+    brave
+    tor-browser
+  ];
 }

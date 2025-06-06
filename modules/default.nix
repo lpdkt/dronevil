@@ -9,5 +9,6 @@
     ./networking.nix
     ./programs.nix
     ./services.nix
+    ./ssh.nix
   ];
 }
