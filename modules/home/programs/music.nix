@@ -34,10 +34,7 @@
     nicotine-plus
     picard
     puddletag
-    asunder
     streamrip
-    easyeffects
-    flac
-    id3
+    (pkgs.callPackage ./extra/mpd-discord-rpc/package.nix { })
   ];
 }

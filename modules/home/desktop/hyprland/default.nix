@@ -12,7 +12,7 @@
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "firefox";
+      "$browser" = "librewolf";
 
       exec-once = [ "waybar" ];
 
@@ -99,8 +99,8 @@
         "$mainMod, F11 , exec, playerctl volume 0.05+"
         "$mainMod, F12, exec, playerctl stop"
         "$mainMod, N, exec, $terminal -e rmpc"
-        "$mainMod, Y, exec, ytmpv" 
-        "$mainMod SHIFT, Y, exec, ytdl" 
+        "$mainMod, Y, exec, ytmpv"
+        "$mainMod SHIFT, Y, exec, ytdl"
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"

@@ -3,7 +3,7 @@
     enable = true;
     config = {
       volume = 65;
-      ytdl-format = "bestvideo+bestaudio";
+      ytdl-format = "bestvideo+bestaudio/best";
       ytdl-raw-options = "sub-lang=en,write-subs=";
       slang = "en";
       gpu-context="wayland";

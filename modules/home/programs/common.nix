@@ -20,13 +20,12 @@
     python3
     lua
     lazygit
-    lazydocker
     docker
+    vscode
 
     # cli
     distrobox
     yt-dlp
-    gallery-dl
     ffmpeg-full
     ripgrep
     jq
@@ -43,12 +42,10 @@
     xz
     unzip
     p7zip
-    glow
 
     # system info
     btop
     fastfetch
-    nitch
     gdu
     gparted
     dysk

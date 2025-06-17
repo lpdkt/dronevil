@@ -10,8 +10,11 @@
       enable = true;
       extraCompatPackages = with pkgs; [ proton-ge-bin ];
     };
-    java.enable = true;
     nix-ld.enable = true;
     kdeconnect.enable = true;
+    nh = {
+      enable = true;
+      flake = "/home/leroy/.config/nixevil";
+    };
   };
 }

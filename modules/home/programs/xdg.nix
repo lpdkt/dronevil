@@ -20,7 +20,7 @@
           let
             file-manager = "thunar.desktop";
             editor = "nvim.desktop";
-            browser = "firefox.desktop";
+            browser = "librewolf.desktop";
             video-player = "mpv.desktop";
             image-viewer = "imv-dir.desktop";
             music-player = "deadbeef.desktop";
