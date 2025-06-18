@@ -35,6 +35,5 @@
     picard
     puddletag
     streamrip
-    (pkgs.callPackage ./extra/mpd-discord-rpc/package.nix { })
   ];
 }

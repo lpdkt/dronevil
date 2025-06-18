@@ -2,7 +2,7 @@
 {
   home.packages = with pkgs; [
     prismlauncher
-    (pkgs.callPackage ./extra/olympus/package.nix { })
+    olympus
     protonplus
     lutris
   ];
