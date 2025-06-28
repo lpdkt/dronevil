@@ -1,6 +1,7 @@
 {
   programs.foot = {
     enable = true;
+    server.enable = true;
     settings = {
       main = {
         term = "foot";
@@ -10,7 +11,6 @@
         gamma-correct-blending = "no";
       };
       colors = {
-        alpha = "1.0";
         background = "1a1b26";
         foreground = "c0caf5";
         regular0 = "15161E";

@@ -6,6 +6,7 @@
     ./email.nix
     ./gaming.nix
     ./git.nix
+    ./gpg.nix
     ./imv.nix
     ./media.nix
     ./mpv.nix

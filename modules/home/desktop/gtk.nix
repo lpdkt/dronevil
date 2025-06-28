@@ -3,7 +3,7 @@
   gtk = {
     enable = true;
     theme = {
-      name = "Tokyonight-Dark-BL";
+      name = "Tokyonight-Dark-BL-LB";
       package = pkgs.tokyonight-gtk-theme;
     };
     iconTheme = {

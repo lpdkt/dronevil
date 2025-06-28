@@ -8,7 +8,7 @@
 
     settings = {
       "$mainMod" = "SUPER";
-      "$terminal" = "foot";
+      "$terminal" = "footclient";
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
@@ -101,6 +101,7 @@
         "$mainMod, N, exec, $terminal -e rmpc"
         "$mainMod, Y, exec, ytmpv"
         "$mainMod SHIFT, Y, exec, ytdl"
+        "$mainMod SHIFT, G, exec, grayscale"
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"

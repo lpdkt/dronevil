@@ -7,6 +7,7 @@
 
   home.packages = with pkgs; [
     vesktop
+    obsidian
     calibre
     kdePackages.kdenlive
     audacity
@@ -14,5 +15,6 @@
     gimp
     qbittorrent
     koreader
+    signal-desktop
   ];
 }
