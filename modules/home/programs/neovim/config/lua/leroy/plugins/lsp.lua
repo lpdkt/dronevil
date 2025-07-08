@@ -87,10 +87,10 @@ return {
           },
           options = {
             nixos = {
-               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/.config/nixevil)).nixosConfigurations.noise.options',
+               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/.config/dronevil)).nixosConfigurations.noise.options',
             },
             home_manager = {
-               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/.config/nixevil)).homeConfigurations."leroy@noise".options',
+               expr = '(builtins.getFlake ("git+file://" + toString /home/leroy/.config/dronevil)).homeConfigurations."leroy@noise".options',
             },
          },
         },

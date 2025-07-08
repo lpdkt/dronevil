@@ -41,7 +41,7 @@
       media = "cd /mnt/media/";
       music = "cd /mnt/media/music";
       vids = "cd /mnt/media/vids";
-      conf = "cd ~/.config/nixevil";
+      conf = "cd ~/.config/dronevil";
     };
 
     profileExtra = ''

@@ -14,7 +14,7 @@
     kdeconnect.enable = true;
     nh = {
       enable = true;
-      flake = "/home/leroy/.config/nixevil";
+      flake = "/home/leroy/.config/dronevil";
     };
   };
 }

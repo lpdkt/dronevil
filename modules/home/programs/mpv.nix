@@ -4,7 +4,7 @@
     config = {
       volume = 65;
       ytdl-format = "bestvideo+bestaudio/best";
-      ytdl-raw-options = "sub-lang=en,write-subs=,embed-subs=";
+      ytdl-raw-options = "sub-lang=en,write-subs=,embed-subs=,";
       slang = "en,eng";
       gpu-context="wayland";
     };
