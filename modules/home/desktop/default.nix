@@ -23,5 +23,6 @@
     pamixer
     playerctl
     brightnessctl
+    wlopm
   ];
 }

@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
-  imports = [ ./hyprpaper.nix ];
+  imports = [
+    ./hyprpaper.nix
+    ./hyprlock.nix
+  ];
 
   wayland.windowManager.hyprland = {
     enable = true;
@@ -12,7 +15,7 @@
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "librewolf";
+      "$browser" = "firefox";
 
       exec-once = [ "waybar" ];
 
@@ -104,8 +107,8 @@
         "$mainMod SHIFT, G, exec, grayscale"
 
         # Screenshot bindings
-        "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
-        "$mainMod SHIFT, S, exec, grim -g \"$(slurp)\" - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"
+        "$mainMod ALT, S, exec, screenshot"
+        "$mainMod SHIFT, S, exec, screenshot select"
 
         # Focus movement with vim keys
         "$mainMod, h, movefocus, l"

@@ -15,7 +15,7 @@ shell: `zsh + starship` \
 text editor: `neovim` \
 application launcher: `fuzzel` \
 bar: `waybar` \
-browser: `librewolf` \
+browser: `hardened firefox/librewolf` \
 file manager: `yazi & thunar` \
 notifications: `dunst` \
 video player: `mpv` \
