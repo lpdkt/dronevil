@@ -21,7 +21,6 @@
     lua
     lazygit
     docker
-    vscode
 
     # cli
     distrobox

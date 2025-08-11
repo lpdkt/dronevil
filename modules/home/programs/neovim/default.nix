@@ -15,7 +15,6 @@
     clang-tools
     typescript-language-server
     pyright
-    rust-analyzer
     nixd
     deadnix
     nixfmt-rfc-style

@@ -4,7 +4,7 @@
     enable = true;
     syntaxHighlighting.enable = true;
 
-    dotDir = ".config/zsh";
+    dotDir = "/home/leroy/.config/zsh";
 
     sessionVariables = {
       TERMINAL = "foot";

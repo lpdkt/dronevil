@@ -2,7 +2,7 @@
 {
   imports = [
     ./hyprpaper.nix
-    ./hyprlock.nix
+    # ./hyprlock.nix
   ];
 
   wayland.windowManager.hyprland = {
@@ -15,7 +15,7 @@
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "firefox";
+      "$browser" = "librewolf";
 
       exec-once = [ "waybar" ];
 
@@ -104,7 +104,9 @@
         "$mainMod, N, exec, $terminal -e rmpc"
         "$mainMod, Y, exec, ytmpv"
         "$mainMod SHIFT, Y, exec, ytdl"
-        "$mainMod SHIFT, G, exec, grayscale"
+
+        "$mainMod SHIFT, period, exec, mullvad connect"
+        "$mainMod ALT, period, exec, mullvad disconnect"
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, screenshot"

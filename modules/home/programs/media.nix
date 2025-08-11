@@ -16,5 +16,6 @@
     qbittorrent
     koreader
     signal-desktop
+    komikku
   ];
 }
