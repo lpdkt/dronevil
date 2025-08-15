@@ -17,5 +17,6 @@
     koreader
     signal-desktop
     komikku
+    libreoffice
   ];
 }

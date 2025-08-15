@@ -27,11 +27,10 @@
   };
 
   home.packages = with pkgs; [
-    spotify
-    tidal-hifi
     mpc
     rmpc
     deadbeef
+    feishin
     nicotine-plus
     picard
     puddletag

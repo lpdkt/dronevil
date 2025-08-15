@@ -23,5 +23,5 @@ image viewer: `imv` \
 pdf viewer: `zathura` \
 screenshot tool: `grim + slurp` \
 screen recording: `obs` \
-music player: `mpd+rmpc` \
+music player: `mpd+rmpc / Qobuz` \
 email: `thunderbird`

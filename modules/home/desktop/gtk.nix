@@ -30,6 +30,10 @@
       '';
     };
   };
+  qt = {
+    enable = true;
+    platformTheme = "gtk3";
+  };
 
   home.packages = with pkgs; [
     gtk-engine-murrine

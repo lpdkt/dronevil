@@ -2,7 +2,7 @@
   services.gammastep = {
     enable = true;
     temperature = {
-      day = 3400;
+      day = 6500;
       night = 3400;
     };
     latitude = 50.1109;
