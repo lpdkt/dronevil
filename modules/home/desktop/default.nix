@@ -1,12 +1,12 @@
 { pkgs, ... }:
 {
   imports = [
+    ./hyprland
     ./dunst.nix
     ./foot.nix
     ./fuzzel.nix
     ./gammastep.nix
     ./gtk.nix
-    ./hyprland
     ./waybar.nix
   ];
 

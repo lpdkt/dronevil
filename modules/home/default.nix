@@ -1,24 +1,21 @@
 {
   imports = [
     ./desktop
-    ./programs
+    ./neovim
     ./shell
+    ./browser.nix
+    ./common.nix
+    ./direnv.nix
+    ./email.nix
+    ./gaming.nix
+    ./git.nix
+    ./gpg.nix
+    ./imv.nix
+    ./mpv.nix
+    ./mpd.nix
+    ./rec.nix
+    ./xdg.nix
+    ./yazi.nix
+    ./zathura.nix
   ];
-
-  home = {
-    sessionVariables = {
-      TERMINAL = "foot";
-      EDITOR = "nvim";
-      SHELL = "zsh";
-    };
-    stateVersion = "24.11";
-  };
-
-  nix.gc = {
-    automatic = true;
-    frequency = "weekly";
-    options = "--delete-older-than 7d";
-  };
-
-  programs.home-manager.enable = true;
 }

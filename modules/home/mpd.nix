@@ -26,16 +26,13 @@
     };
   };
 
+  xdg.configFile = {
+    "rmpc/config.ron".source = ./extra/rmpc/config.ron;
+    "rmpc/themes/theme.ron".source = ./extra/rmpc/theme.ron;
+  };
+
   home.packages = with pkgs; [
     mpc
     rmpc
-    deadbeef
-    feishin
-    nicotine-plus
-    picard
-    puddletag
-    streamrip
-    abcde
-    sacad
   ];
 }

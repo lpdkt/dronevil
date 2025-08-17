@@ -6,17 +6,7 @@
   };
 
   home.packages = with pkgs; [
-    vesktop
-    obsidian
-    calibre
-    kdePackages.kdenlive
     audacity
-    anki
-    gimp
-    qbittorrent
-    koreader
-    signal-desktop
-    komikku
-    libreoffice
+    kdePackages.kdenlive
   ];
 }

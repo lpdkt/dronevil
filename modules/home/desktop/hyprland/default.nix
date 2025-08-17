@@ -19,7 +19,7 @@
 
       exec-once = [ "waybar" ];
 
-      monitor = [ ",preferred,auto,auto" ];
+      monitor = [ ",preferred,auto,1" ];
 
       input = {
         kb_layout = "eu";
