@@ -35,5 +35,7 @@
     picard
     puddletag
     streamrip
+    abcde
+    sacad
   ];
 }
