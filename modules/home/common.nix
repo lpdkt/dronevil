@@ -11,7 +11,7 @@
 
   nix.gc = {
     automatic = true;
-    frequency = "weekly";
+    dates = "weekly";
     options = "--delete-older-than 7d";
   };
 
@@ -26,7 +26,7 @@
     xfce.xfconf
     ffmpegthumbnailer
 
-    # gui apps
+    # gui
     vesktop
     calibre
     anki
@@ -39,9 +39,7 @@
     nicotine-plus
     picard
     puddletag
-
-    # safety
-    mullvad-vpn
+    freetube
     bitwarden
     keepassxc
 
@@ -74,8 +72,6 @@
     xz
     unzip
     p7zip
-
-    # system info
     btop
     fastfetch
     gdu

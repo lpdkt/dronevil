@@ -41,6 +41,8 @@
       git
       usbutils
     ];
-    variables.EDITOR = "vim";
+    variables = {
+      EDITOR = "vim";
+    };
   };
 }
