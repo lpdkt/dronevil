@@ -20,6 +20,7 @@
 
     initContent = ''
       zstyle ':completion:*' list-colors "''${(s.:.)LS_COLORS}"
+      source ${pkgs.zsh-vi-mode}/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
     '';
 
     history = {
@@ -40,7 +41,6 @@
       q = "exit";
       media = "cd /mnt/media/";
       music = "cd /mnt/media/music";
-      vids = "cd /mnt/media/vids";
       conf = "cd ~/.config/dronevil";
     };
 

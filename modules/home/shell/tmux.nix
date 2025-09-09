@@ -2,7 +2,7 @@
 {
   programs.tmux = {
     enable = true;
-    shell = "${pkgs.zsh}/bin/zsh";
+    shell = "${pkgs.fish}/bin/fish";
     terminal = "foot";
     mouse = true;
     prefix = "C-a";

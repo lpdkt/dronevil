@@ -4,7 +4,7 @@
     sessionVariables = {
       TERMINAL = "foot";
       EDITOR = "nvim";
-      SHELL = "zsh";
+      SHELL = "fish";
     };
     stateVersion = "24.11";
   };
@@ -37,6 +37,7 @@
     libreoffice
     feishin
     nicotine-plus
+    strawberry
     picard
     puddletag
     freetube

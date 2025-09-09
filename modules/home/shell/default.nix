@@ -1,5 +1,6 @@
 {
   imports = [
+    ./fish.nix
     ./starship.nix
     ./tmux.nix
     ./zsh.nix
@@ -13,6 +14,7 @@
     fzf = {
       enable = true;
       enableZshIntegration = true;
+      enableFishIntegration = true;
       defaultOptions = [
         "--layout reverse"
         "--height 20%"

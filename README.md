@@ -11,7 +11,7 @@ distro: `nixos` \
 wm: `hyprland` \
 theme:`tokyo night` \
 terminal emulator: `foot` \
-shell: `zsh + starship` \
+shell: `fish/zsh + starship` \
 text editor: `neovim` \
 application launcher: `fuzzel` \
 bar: `waybar` \

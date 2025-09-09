@@ -17,8 +17,6 @@
       "$menu" = "fuzzel";
       "$browser" = "librewolf";
 
-      exec-once = [ "waybar" ];
-
       monitor = [ ",preferred,auto,1" ];
 
       input = {
