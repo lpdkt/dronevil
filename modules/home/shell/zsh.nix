@@ -43,11 +43,5 @@
       music = "cd /mnt/media/music";
       conf = "cd ~/.config/dronevil";
     };
-
-    profileExtra = ''
-      if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-        Hyprland
-      fi
-    '';
   };
 }

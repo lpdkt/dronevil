@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 {
   home = {
     sessionVariables = {
@@ -27,15 +27,15 @@
     ffmpegthumbnailer
 
     # gui
-    vesktop
     calibre
     anki
     gimp
     qbittorrent
     koreader
     signal-desktop
+    vesktop
     libreoffice
-    feishin
+    tidal-hifi
     nicotine-plus
     strawberry
     picard

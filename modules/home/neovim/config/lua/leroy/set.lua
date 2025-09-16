@@ -8,6 +8,7 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.fillchars = { eob = " " }
 vim.opt.expandtab = true
+vim.opt.winborder = "rounded"
 
 vim.opt.smartindent = true
 

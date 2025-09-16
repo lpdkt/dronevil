@@ -29,10 +29,6 @@
         };
       };
 
-      gestures = {
-        workspace_swipe = true;
-      };
-
       general = {
         gaps_in = 2;
         gaps_out = 5;

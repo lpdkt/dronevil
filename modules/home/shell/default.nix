@@ -13,11 +13,12 @@
     };
     fzf = {
       enable = true;
-      enableZshIntegration = true;
       enableFishIntegration = true;
+      enableZshIntegration = true;
       defaultOptions = [
-        "--layout reverse"
-        "--height 20%"
+        "--color=16"
+        "--layout=reverse"
+        "--height=10"
       ];
     };
   };
