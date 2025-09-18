@@ -6,10 +6,12 @@
         backend = "iwd";
       };
     };
-    wireless.iwd.enable = true;
-    wireless.iwd.settings = {
-      Settings = {
-        AutoConnect = true;
+    wireless.iwd = {
+      enable = true;
+      settings = {
+        Settings = {
+          AutoConnect = true;
+        };
       };
     };
   };

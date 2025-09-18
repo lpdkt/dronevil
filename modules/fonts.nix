@@ -27,7 +27,6 @@
       twitter-color-emoji
       nerd-fonts.iosevka
       nerd-fonts.iosevka-term
-      nerd-fonts.jetbrains-mono
     ];
   };
 }

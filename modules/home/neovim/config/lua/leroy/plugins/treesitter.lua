@@ -8,6 +8,7 @@ return {
         "c",
         "cpp",
         "go",
+        "nix",
         "vim",
         "vimdoc",
         "markdown",

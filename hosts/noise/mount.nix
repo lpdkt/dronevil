@@ -1,19 +1,8 @@
 {
-  # Arch Partition
-  fileSystems."/mnt/alt" = {
-    device = "/dev/disk/by-uuid/b2164c90-ea6e-416a-b51a-dae6c1313b76";
-    fsType = "btrfs";
-    options = [
-      "defaults"
-      "user"
-      "x-gvfs-show"
-    ];
-  };
-
-  # Media Partition
+  # Media drive
   fileSystems."/mnt/media" = {
-    device = "/dev/disk/by-uuid/0073aae7-26c0-42d0-9b29-07cb071745bd";
-    fsType = "btrfs";
+    device = "/dev/disk/by-uuid/beeaa896-7524-437f-a1fb-686c795a8b5b";
+    fsType = "ext4";
     options = [
       "defaults"
       "user"

@@ -9,6 +9,7 @@
 
   services.protonmail-bridge = {
     enable = true;
-    extraPackages = with pkgs; [ pass gnome-keyring ];
   };
+
+  home.packages = with pkgs; [ pass gnome-keyring ];
 }

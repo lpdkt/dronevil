@@ -19,6 +19,7 @@
       set -g status-style "bg=default"
       set -g window-status-current-style "fg=blue bold"
       set -g status-left "#S"
+      set -g status-left-length 80
       set -g status-right ""
       set -g status-interval 5
       set -g destroy-unattached off
