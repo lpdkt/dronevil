@@ -32,12 +32,8 @@
     gimp
     qbittorrent
     koreader
-    signal-desktop
-    vesktop
     libreoffice
-    tidal-hifi
     nicotine-plus
-    strawberry
     picard
     puddletag
     freetube

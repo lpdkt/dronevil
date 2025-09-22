@@ -45,6 +45,7 @@ return {
 			"rust_analyzer",
 			"zls",
 			"bashls",
+      "eslint"
 		})
 
 		vim.lsp.config("lua_ls", {

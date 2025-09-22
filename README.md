@@ -11,11 +11,11 @@ distro: `nixos` \
 wm: `hyprland` \
 theme:`tokyo night` \
 terminal emulator: `foot` \
-shell: `fish/zsh + starship` \
+shell: `fish + starship` \
 text editor: `neovim` \
 application launcher: `fuzzel` \
 bar: `waybar` \
-browser: `hardened firefox/librewolf` \
+browser: `librewolf` \
 file manager: `yazi & thunar` \
 notifications: `dunst` \
 video player: `mpv` \
@@ -23,5 +23,5 @@ image viewer: `imv` \
 pdf viewer: `zathura` \
 screenshot tool: `grim + slurp` \
 screen recording: `obs` \
-music player: `mpd+rmpc / Qobuz` \
+music player: `mpd+rmpc` \
 email: `thunderbird`

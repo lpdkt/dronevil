@@ -23,7 +23,7 @@
       set -g status-right ""
       set -g status-interval 5
       set -g destroy-unattached off
-      bind-key -r f run-shell "tmux neww ~/bin/tmux-sessionizer"
+      bind-key -r f run-shell "tmux neww ~/bin/tms"
       bind-key b set-option status
       bind -r k select-pane -U
       bind -r j select-pane -D
