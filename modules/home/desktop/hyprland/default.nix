@@ -2,7 +2,7 @@
 {
   imports = [
     ./hyprpaper.nix
-    # ./hyprlock.nix
+    ./hyprlock.nix
   ];
 
   wayland.windowManager.hyprland = {

@@ -7,27 +7,30 @@
         hide_cursor = true;
       };
 
-      background = [
-        {
-          path = "/home/leroy/.config/dronevil/modules/home/desktop/hyprland/wallpaper/mountain.jpeg";
-          blur_passes = 3;
-          blur_size = 8;
-        }
-      ];
+      auth.fingerprint = {
+        enabled = true;
+        ready_message = "<span>  </span>";
+        present_message = ''<span foreground='##94E2D5'>  </span>'';
+      };
 
       label = [
-      {
-        text = "$TIME";
-        valign = "top";
-        halign = "left";
-        position = "15, -10";
-      }
-      {
-        text = ''cmd[update:10000] echo "$(cat /sys/class/power_supply/BAT0/capacity)%"'';
-        valign = "top";
-        halign = "right";
-        position = "-15, -10";
-      }
+        {
+          text = "$FPRINTPROMPT";
+          font_size = 50;
+          position = "-6, 0"; # the unicode symbol is slightly out of center
+        }
+        {
+          text = "$TIME";
+          valign = "top";
+          halign = "left";
+          position = "15, -10";
+        }
+        {
+          text = ''cmd[update:10000] echo "$(cat /sys/class/power_supply/BAT0/capacity)%"'';
+          valign = "top";
+          halign = "right";
+          position = "-15, -10";
+        }
       ];
 
       input-field = {
@@ -37,8 +40,7 @@
         fade_on_empty = false;
         swap_font_color = true;
         placeholder_text = "";
-        font_family = "Iosevka Nerd Font";
-        font_size = 12;
+        font_family = "monospace";
         font_color = "rgba(254, 254, 254, 1.0)";
         inner_color = "rgba(0, 0, 0, 0.0)";
         check_color = "rgba(148, 226, 213, 1.0)";
@@ -52,20 +54,13 @@
       let
         lockTimeout = 10 * 60;
         blankTimeout = 15;
-        suspendTimeout = 30 * 60;
+        suspendTimeout = 20 * 60;
         screenLocker = "hyprlock";
         screenOn = "wlopm --on '*'";
         screenOff = "wlopm --off '*'";
       in
       {
         general = {
-          # If lockscreen is not running start it (prevents multiple lockers).
-          # Hypridle does not count fingerprint activity as resuming,
-          # so the screen will stay blank if no other keys are touched.
-          # Hyprlock blocks until it's unlocked, so to fix this
-          # we can wake the screen on unlock by chaining a wlopm call to it.
-          # We can't use on_unlock_cmd without hyprland-lock-notify-v1 protocol,
-          # and river does not implement it
           lock_cmd = "pidof ${screenLocker} || { ${screenLocker} && ${screenOn}; }";
           before_sleep_cmd = "loginctl lock-session";
         };

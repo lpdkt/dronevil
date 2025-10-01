@@ -12,7 +12,7 @@
   home.packages = with pkgs; [
     nixd
     deadnix
-    nixfmt-rfc-style
+    nixfmt
     lua-language-server
     stylua
   ];

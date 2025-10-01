@@ -8,7 +8,6 @@
         font = "IosevkaTerm Nerd Font:size=12";
         font-size-adjustment = "2.0";
         pad = "4x4 center";
-        gamma-correct-blending = "no";
       };
       colors = {
         background = "1a1b26";

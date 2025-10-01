@@ -15,6 +15,11 @@
   };
 
   home.packages = with pkgs; [
+    xfce.thunar
+    xfce.thunar-volman
+    xfce.tumbler
+    xfce.xfconf
+    ffmpegthumbnailer
     libnotify
     grim
     slurp

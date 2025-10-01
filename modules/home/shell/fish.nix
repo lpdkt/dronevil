@@ -16,7 +16,7 @@
       q = "exit";
       media = "cd /mnt/media/";
       music = "cd /mnt/media/music";
-      conf = "cd ~/.config/dronevil";
+      conf = "cd ~/dronevil";
       ".." = "cd ..";
       "..." = "cd ../..";
       "...." = "cd ../../..";

@@ -19,13 +19,6 @@
 
   home.packages = with pkgs; [
 
-    # files
-    xfce.thunar
-    xfce.thunar-volman
-    xfce.tumbler
-    xfce.xfconf
-    ffmpegthumbnailer
-
     # gui
     calibre
     anki
@@ -36,7 +29,6 @@
     nicotine-plus
     picard
     puddletag
-    freetube
     bitwarden
     keepassxc
 
@@ -48,31 +40,26 @@
     docker
 
     # cli
-    streamrip
     abcde
     sacad
+    streamrip
     distrobox
     yt-dlp
     ffmpeg-full
     ripgrep
+    fd
     jq
     yq-go
     file
     which
     tree
-    gnused
-    gnutar
-    gawk
-    zstd
-    gnupg
     zip
-    xz
     unzip
     p7zip
     btop
     fastfetch
     gdu
     gparted
-    dysk
+    duf
   ];
 }
