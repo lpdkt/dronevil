@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 {
   imports = [
     ./hardware-configuration.nix
@@ -21,5 +21,11 @@
     ];
     shell = pkgs.fish;
     packages = with pkgs; [ ];
+  };
+
+  home-manager.users.leroy = {
+    programs.hyprlock.enable = lib.mkForce false;
+    services.hypridle.enable = lib.mkForce false;
+    gtk.theme.name = lib.mkForce "Tokyonight-Dark-BL-LB";
   };
 }

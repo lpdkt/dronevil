@@ -13,7 +13,7 @@
         restore_paused "yes"
       '';
     };
-    mpd-mpris.enable = true;
+    mpdris2.enable = true;
     mpdscribble = {
       enable = true;
       endpoints = {

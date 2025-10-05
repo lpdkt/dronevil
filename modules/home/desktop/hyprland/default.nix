@@ -1,12 +1,9 @@
 { pkgs, ... }:
 {
-  imports = [
-    ./hyprpaper.nix
-    ./hyprlock.nix
-  ];
+  imports = [ ./hyprpaper.nix ];
 
   wayland.windowManager.hyprland = {
-    enable = true;
+    enable = false;
     xwayland.enable = true;
 
     settings = {
@@ -64,7 +61,7 @@
       env = [
         "XCURSOR_SIZE,24"
         "XCURSOR_THEME,Adwaita"
-        "GTK_THEME,Tokyonight-Dark-BL-LB"
+        "GTK_THEME,Tokyonight-Dark"
         "XDG_CURRENT_DESKTOP,Hyprland"
         "XDG_SESSION_TYPE,wayland"
         "XDG_SESSION_DESKTOP,Hyprland"

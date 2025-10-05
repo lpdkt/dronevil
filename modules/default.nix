@@ -11,5 +11,6 @@
     ./programs.nix
     ./services.nix
     ./ssh.nix
+    ./wayland.nix
   ];
 }

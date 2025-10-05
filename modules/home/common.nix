@@ -1,10 +1,14 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
   home = {
     sessionVariables = {
       TERMINAL = "foot";
       EDITOR = "nvim";
       SHELL = "fish";
+      XDG_SESSION_TYPE = "wayland";
+      GDK_BACKEND = "wayland,x11,*";
+      NIXOS_OZONE_WL = 1;
+      MOZ_ENABLE_WAYLAND = 1;
     };
     stateVersion = "24.11";
   };
@@ -31,6 +35,7 @@
     puddletag
     bitwarden
     keepassxc
+    vesktop
 
     # dev
     gcc

@@ -8,7 +8,7 @@ If you want to use it you will have to make your own changes!
 ### stuff i use: 
 
 distro: `nixos` \
-wm: `hyprland` \
+wm: `river` \
 theme:`tokyo night` \
 terminal emulator: `foot` \
 shell: `fish + starship` \
@@ -17,7 +17,7 @@ application launcher: `fuzzel` \
 bar: `waybar` \
 browser: `librewolf` \
 file manager: `yazi & thunar` \
-notifications: `dunst` \
+notifications: `mako` \
 video player: `mpv` \
 image viewer: `imv` \
 pdf viewer: `zathura` \

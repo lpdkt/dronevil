@@ -1,13 +1,15 @@
 { pkgs, ... }:
 {
   imports = [
-    ./hyprland
-    ./dunst.nix
+    ./waybar
+    ./hyprlock.nix
     ./foot.nix
     ./fuzzel.nix
     ./gammastep.nix
     ./gtk.nix
-    ./waybar.nix
+    ./mako.nix
+    ./river.nix
+    ./swww.nix
   ];
 
   services = {
@@ -29,5 +31,6 @@
     playerctl
     brightnessctl
     wlopm
+    wlr-randr
   ];
 }

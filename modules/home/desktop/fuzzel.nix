@@ -23,6 +23,7 @@
       };
       border = {
         width = 2;
+        radius = 0;
       };
     };
   };
