@@ -31,11 +31,12 @@
     koreader
     libreoffice
     nicotine-plus
+    strawberry
     picard
     puddletag
     bitwarden
     keepassxc
-    vesktop
+    signal-desktop
 
     # dev
     gcc
@@ -47,7 +48,6 @@
     # cli
     abcde
     sacad
-    streamrip
     distrobox
     yt-dlp
     ffmpeg-full

@@ -78,6 +78,12 @@ tooltip {
   color: #c0caf5;
 }
 
+#tags button.urgent {
+  color: #11111b;
+  background: #f28fad;
+  opacity: 0.5;
+}
+
 /* #custom-power_profile, */
 /* #custom-weather, */
 
