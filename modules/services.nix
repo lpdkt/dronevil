@@ -17,7 +17,10 @@
         };
       };
     };
-    mullvad-vpn.enable = true;
+    mullvad-vpn = {
+      enable = true;
+      package = pkgs.mullvad-vpn;
+    };
     gvfs.enable = true;
     printing = {
       enable = true;

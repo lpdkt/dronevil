@@ -95,7 +95,7 @@
 
         input = {
           "pointer-1133-16534-Logitech_ERGO_M575" = {
-            pointer-accell = 1.5;
+            scroll-factor = 1.5;
           };
           "touchpad-*" = {
             natural-scroll = true;
