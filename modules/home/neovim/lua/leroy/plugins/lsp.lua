@@ -47,6 +47,7 @@ return {
 			"bashls",
 			"eslint",
 			"jdtls",
+			"tinymist",
 		})
 
 		vim.lsp.config("lua_ls", {
@@ -59,6 +60,8 @@ return {
 			},
 		})
 
+
+
 		null_ls.setup({
 			sources = {
 				null_ls.builtins.diagnostics.deadnix,
@@ -67,7 +70,7 @@ return {
 		})
 
 		vim.diagnostic.config({
-      virtual_text = true,
+			virtual_text = true,
 			float = {
 				focusable = false,
 				style = "minimal",

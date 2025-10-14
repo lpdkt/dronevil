@@ -81,10 +81,10 @@
             };
 
           "-repeat normal" = {
-            "Super+Alt H" = "send-layout-cmd bsp-layout '--dec-vsplit .01'";
-            "Super+Alt L" = "send-layout-cmd bsp-layout '--inc-vsplit .01'";
-            "Super+Alt K" = "send-layout-cmd bsp-layout '--dec-hsplit .01'";
-            "Super+Alt J" = "send-layout-cmd bsp-layout '--inc-hsplit .01'";
+            "Super+Alt H" = "send-layout-cmd bsp-layout '--dec-vsplit .05'";
+            "Super+Alt L" = "send-layout-cmd bsp-layout '--inc-vsplit .05'";
+            "Super+Alt K" = "send-layout-cmd bsp-layout '--dec-hsplit .05'";
+            "Super+Alt J" = "send-layout-cmd bsp-layout '--inc-hsplit .05'";
           };
         };
 

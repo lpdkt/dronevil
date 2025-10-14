@@ -2,20 +2,23 @@
   imports = [
     ./desktop
     ./neovim
-    ./shell
     ./browser.nix
     ./common.nix
     ./direnv.nix
     ./email.nix
+    ./fish.nix
     ./gaming.nix
     ./git.nix
     ./gpg.nix
     ./imv.nix
-    ./mpv.nix
     ./mpd.nix
+    ./mpv.nix
     ./rec.nix
+    ./starship.nix
+    ./tmux.nix
     ./xdg.nix
     ./yazi.nix
     ./zathura.nix
+    ./zsh.nix
   ];
 }

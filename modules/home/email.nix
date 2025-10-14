@@ -4,6 +4,9 @@
     thunderbird = {
       enable = true;
       profiles."default".isDefault = true;
+      settings = {
+        "mail.biff.show_tray_icon_always" = true;
+      };
     };
   };
 
@@ -11,5 +14,8 @@
     enable = true;
   };
 
-  home.packages = with pkgs; [ pass gnome-keyring ];
+  home.packages = with pkgs; [
+    pass
+    gnome-keyring
+  ];
 }

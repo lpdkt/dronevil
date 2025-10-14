@@ -9,8 +9,6 @@
     baseIndex = 1;
     keyMode = "vi";
     escapeTime = 0;
-    plugins = with pkgs.tmuxPlugins; [ vim-tmux-navigator ];
-
     extraConfig = ''
       set -g status on
       set -g renumber-windows on
