@@ -54,18 +54,21 @@
                   imports = [
                     ./modules/home/desktop
                     ./modules/home/neovim
-                    ./modules/home/shell
                     ./modules/home/browser.nix
                     ./modules/home/common.nix
                     ./modules/home/direnv.nix
                     ./modules/home/email.nix
+                    ./modules/home/fish.nix
                     ./modules/home/git.nix
                     ./modules/home/gpg.nix
                     ./modules/home/imv.nix
                     ./modules/home/mpv.nix
                     ./modules/home/xdg.nix
+                    ./modules/home/starship.nix
+                    ./modules/home/tmux.nix
                     ./modules/home/yazi.nix
                     ./modules/home/zathura.nix
+                    ./modules/home/zsh.nix
                   ];
                 };
                 extraSpecialArgs = { inherit inputs; };

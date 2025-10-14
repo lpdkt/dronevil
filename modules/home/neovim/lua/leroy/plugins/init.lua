@@ -5,9 +5,4 @@ return {
 		opts = {},
 		lazy = false,
 	},
-	{
-		"windwp/nvim-autopairs",
-		event = "InsertEnter",
-		config = true,
-	},
 }

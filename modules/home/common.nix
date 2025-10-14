@@ -1,5 +1,7 @@
 { pkgs, ... }:
 {
+  programs.home-manager.enable = true;
+
   home = {
     sessionVariables = {
       TERMINAL = "foot";
@@ -19,7 +21,19 @@
     options = "--delete-older-than 7d";
   };
 
-  programs.home-manager.enable = true;
+  programs = {
+    bash = {
+      enable = true;
+      enableCompletion = true;
+    };
+    fzf = {
+      enable = true;
+      defaultOptions = [
+        "--color=16"
+        "--layout=reverse"
+      ];
+    };
+  };
 
   home.packages = with pkgs; [
 

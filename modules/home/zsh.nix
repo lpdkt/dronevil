@@ -36,9 +36,6 @@
 
     shellAliases = {
       vim = "nvim";
-      v = "nvim";
-      nv = "nvim";
-      q = "exit";
       media = "cd /mnt/media/";
       music = "cd /mnt/media/music";
       conf = "cd ~/dronevil";

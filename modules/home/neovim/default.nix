@@ -5,14 +5,14 @@
   };
 
   xdg.configFile = {
-    "nvim/init.lua".source = ./config/init.lua;
-    "nvim/lua".source = ./config/lua;
+    "nvim/init.lua".source = ./init.lua;
+    "nvim/lua".source = ./lua;
   };
 
   home.packages = with pkgs; [
     nixd
     deadnix
-    nixfmt
+    nixfmt-rfc-style
     lua-language-server
     stylua
   ];
