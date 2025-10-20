@@ -171,6 +171,8 @@
             "librewolf"
             "vlc"
             "firefox"
+            "chromium"
+            "brave"
           ];
         };
 

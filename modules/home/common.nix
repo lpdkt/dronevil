@@ -53,18 +53,11 @@
     vesktop
     signal-desktop
 
-    # dev
+    # cli
     gcc
     python3
-    lua
-    lazygit
     docker
-
-    # cli
-    abcde
-    sacad
     distrobox
-    yt-dlp
     ffmpeg-full
     ripgrep
     fd
@@ -76,10 +69,14 @@
     zip
     unzip
     p7zip
+    killall
     btop
     fastfetch
     gdu
     gparted
     duf
+    yt-dlp
+    abcde
+    sacad
   ];
 }

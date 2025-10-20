@@ -64,6 +64,7 @@
               "Super N" = "spawn '${terminal} -e rmpc'";
               "Super Y" = "spawn ytmpv";
               "Super+Shift Y" = "spawn ytdl";
+              "Super+Alt Y" = "spawn ytmpvsearch";
               "Super+Shift Period" = "spawn 'mullvad connect'";
               "Super+Alt Period" = "spawn 'mullvad disconnect'";
               "Super+Alt S" = "spawn screenshot";

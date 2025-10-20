@@ -5,5 +5,6 @@
     olympus
     protonplus
     lutris
+    mgba
   ];
 }
