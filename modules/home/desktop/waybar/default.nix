@@ -2,7 +2,9 @@
   programs.waybar = {
     enable = true;
     systemd.enable = true;
+
     style = ./waybar.css;
+
     settings = {
       mainBar = {
         height = 30;

@@ -1,6 +1,7 @@
 {
   programs.mpv = {
     enable = true;
+
     config = {
       volume = 65;
       ytdl-format = "bestvideo+bestaudio/best";
@@ -8,6 +9,7 @@
       slang = "en,eng";
       gpu-context="wayland";
     };
+
     bindings = {
       r = "cycle_values video-rotate 90 180 270 0";
     };

@@ -32,18 +32,22 @@
     in
     {
       enable = true;
+
       theme = {
         name = "Tokyonight-Dark";
         package = pkgs.tokyonight-gtk-theme;
       };
+
       iconTheme = {
         name = "Papirus-Dark";
         package = pkgs.papirus-icon-theme;
       };
+
       font = {
         name = "Iosevka Nerd Font";
         size = 10;
       };
+
       gtk3 = disableDecorations;
       gtk4 = disableDecorations;
     };

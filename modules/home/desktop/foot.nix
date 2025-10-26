@@ -2,6 +2,7 @@
   programs.foot = {
     enable = true;
     server.enable = true;
+
     settings = {
       main = {
         term = "foot";
@@ -9,6 +10,7 @@
         font-size-adjustment = "2.0";
         pad = "4x4 center";
       };
+
       colors = {
         background = "1a1b26";
         foreground = "c0caf5";
@@ -29,6 +31,7 @@
         bright6 = "7dcfff";
         bright7 = "c0caf5";
       };
+
       key-bindings = {
         fullscreen = "F11";
       };

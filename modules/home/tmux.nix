@@ -9,6 +9,7 @@
     baseIndex = 1;
     keyMode = "vi";
     escapeTime = 0;
+
     extraConfig = ''
       set -g status on
       set -g renumber-windows on

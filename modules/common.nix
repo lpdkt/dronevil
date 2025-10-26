@@ -40,6 +40,7 @@
       curl
       git
       usbutils
+      cryptsetup
     ];
     variables = {
       EDITOR = "vim";

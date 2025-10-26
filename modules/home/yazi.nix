@@ -4,6 +4,7 @@
     enableZshIntegration = true;
     enableFishIntegration = true;
     shellWrapperName = "y";
+
     theme = {
       mode = {
         normal_main = {
@@ -16,6 +17,7 @@
         };
       };
     };
+
     settings = {
       mgr = {
         sort_dir_first = true;

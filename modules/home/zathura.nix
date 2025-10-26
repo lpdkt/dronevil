@@ -1,9 +1,11 @@
 {
   programs.zathura = {
     enable = true;
+
     mappings = {
       f = "toggle_fullscreen";
     };
+
     options = {
       selection-clipboard = "clipboard";
       notification-error-bg = "#f7768e";

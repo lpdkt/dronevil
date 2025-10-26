@@ -11,6 +11,8 @@
   };
 
   programs.adb.enable = true;
-  users.users.leroy.extraGroups = [ "adbusers" ];
-  services.udev.packages = [ pkgs.android-udev-rules ];
+  users.users.leroy.extraGroups = [
+    "docker"
+    "adbusers"
+  ];
 }

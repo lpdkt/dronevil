@@ -54,7 +54,6 @@
     signal-desktop
 
     # cli
-    gcc
     python3
     docker
     distrobox
