@@ -48,7 +48,7 @@
     strawberry
     picard
     puddletag
-    bitwarden
+    bitwarden-desktop
     keepassxc
     vesktop
     signal-desktop

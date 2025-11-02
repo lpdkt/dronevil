@@ -4,9 +4,6 @@ return {
 		event = "InsertEnter",
 		config = true,
 	},
-
-	{ "wakatime/vim-wakatime", lazy = false },
-
 	{
 		"numToStr/Comment.nvim",
 		opts = {},

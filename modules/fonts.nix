@@ -4,15 +4,9 @@
     fontconfig = {
       enable = true;
       defaultFonts = {
-        emoji = [ "Twitter Color Emoji" ];
-        monospace = [
-          "Iosevka Nerd Font"
-          "Sarasa Gothic"
-        ];
-        sansSerif = [
-          "Noto Sans"
-          "Sarasa Gothic"
-        ];
+        emoji = [ "Noto Color Emoji" ];
+        monospace = [ "Iosevka Nerd Font" ];
+        sansSerif = [ "Noto Sans" ];
       };
     };
 
@@ -20,11 +14,8 @@
 
     packages = with pkgs; [
       noto-fonts
-      noto-fonts-extra
       noto-fonts-cjk-sans
-      noto-fonts-emoji
-      sarasa-gothic
-      twitter-color-emoji
+      noto-fonts-color-emoji
       nerd-fonts.iosevka
       nerd-fonts.iosevka-term
     ];
