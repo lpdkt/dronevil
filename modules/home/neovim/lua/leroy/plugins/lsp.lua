@@ -40,15 +40,15 @@ return {
 			"nixd",
 			"gopls",
 			"clangd",
-			"ts_ls",
 			"pyright",
 			"rust_analyzer",
 			"zls",
 			"bashls",
-			"eslint",
 			"jdtls",
 			"tinymist",
-			"cmake",
+      "ts_ls",
+      "svelte",
+      "tailwindcss",
 		})
 
 		vim.lsp.config("lua_ls", {
@@ -65,6 +65,7 @@ return {
 			sources = {
 				null_ls.builtins.diagnostics.deadnix,
 				null_ls.builtins.formatting.stylua,
+        null_ls.builtins.formatting.prettier,
 			},
 		})
 

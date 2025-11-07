@@ -2,11 +2,6 @@
   programs.fish = {
     enable = true;
 
-    functions = {
-      fish_user_key_bindings = "fish_vi_key_bindings";
-      fish_greeting = "";
-    };
-
     shellAliases =
       let
         hostName = builtins.getEnv "HOSTNAME";

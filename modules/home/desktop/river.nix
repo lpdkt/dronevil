@@ -14,7 +14,7 @@
     settings =
       with lib;
       let
-        terminal = "footclient";
+        terminal = "foot";
         browser = "librewolf";
         numTags = 9;
         listToAttrSet = list: listToAttrs (imap (i: nameValuePair (toString i)) list);

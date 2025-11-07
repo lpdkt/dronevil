@@ -5,8 +5,14 @@
       enable = true;
       defaultFonts = {
         emoji = [ "Noto Color Emoji" ];
-        monospace = [ "Iosevka Nerd Font" ];
-        sansSerif = [ "Noto Sans" ];
+        monospace = [
+          "Iosevka Nerd Font"
+          "Sarasa Gothic"
+        ];
+        sansSerif = [
+          "Noto Sans"
+          "Sarasa Gothic"
+        ];
       };
     };
 
@@ -18,6 +24,7 @@
       noto-fonts-color-emoji
       nerd-fonts.iosevka
       nerd-fonts.iosevka-term
+      sarasa-gothic
     ];
   };
 }

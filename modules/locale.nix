@@ -12,6 +12,7 @@
       "ja_JP.UTF-8/UTF-8"
     ];
   };
+
   location.provider = "geoclue2";
   services.geoclue2.enable = true;
 }

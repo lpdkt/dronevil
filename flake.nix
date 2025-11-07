@@ -45,6 +45,7 @@
             ./modules/programs.nix
             ./modules/services.nix
             ./modules/ssh.nix
+            ./modules/wayland.nix
             home-manager.nixosModules.home-manager
             {
               home-manager = {

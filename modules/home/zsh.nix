@@ -1,16 +1,23 @@
-{ pkgs, ... }:
+{ pkgs, config, ... }:
 {
   programs.zsh = {
     enable = true;
     syntaxHighlighting.enable = true;
 
-    dotDir = "/home/leroy/.config/zsh";
+    dotDir = "${config.xdg.configHome}/zsh";
 
     sessionVariables = {
       TERMINAL = "foot";
       EDITOR = "nvim";
       LS_COLORS = "$(${pkgs.vivid}/bin/vivid generate tokyonight-night)";
     };
+
+    plugins = [
+      {
+        name = "zsh-vi-mode";
+        src = "${pkgs.zsh-vi-mode}/share/zsh-vi-mode";
+      }
+    ];
 
     envExtra = ''
       path+=("$HOME/bin")
@@ -20,25 +27,31 @@
 
     initContent = ''
       zstyle ':completion:*' list-colors "''${(s.:.)LS_COLORS}"
-      source ${pkgs.zsh-vi-mode}/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+      zvm_after_init_commands+=(eval "$(fzf --zsh)")
     '';
 
-    history = {
-      size = 1000000;
-      save = 1000000;
-      ignorePatterns = [
-        "cd ..*"
-        "ls"
-      ];
-      extended = true;
-      ignoreDups = true;
-    };
+    history.ignoreDups = true;
 
-    shellAliases = {
-      vim = "nvim";
-      media = "cd /mnt/media/";
-      music = "cd /mnt/media/music";
-      conf = "cd ~/dronevil";
-    };
+    shellAliases =
+      let
+        hostName = builtins.getEnv "HOSTNAME";
+      in
+      {
+        vim = "nvim";
+        media = "cd /mnt/media/";
+        music = "cd /mnt/media/music";
+        conf = "cd ~/dronevil";
+        ".." = "cd ..";
+        "..." = "cd ../..";
+        "...." = "cd ../../..";
+        dev = "nix develop --impure -c \"$SHELL\"";
+        rebuild = "sudo nixos-rebuild switch --flake ~/dronevil#${hostName}";
+      };
+
+    profileExtra = ''
+      if [ -z "$WAYLAND_DISPLAY" ] && [ $(tty) = "/dev/tty1" ]; then
+        exec river
+      fi
+    '';
   };
 }

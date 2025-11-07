@@ -8,7 +8,7 @@
 
     settings = {
       "$mainMod" = "SUPER";
-      "$terminal" = "footclient";
+      "$terminal" = "foot";
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";

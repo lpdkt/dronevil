@@ -6,7 +6,6 @@
     sessionVariables = {
       TERMINAL = "foot";
       EDITOR = "nvim";
-      SHELL = "fish";
       XDG_SESSION_TYPE = "wayland";
       GDK_BACKEND = "wayland,x11,*";
       NIXOS_OZONE_WL = 1;
@@ -45,7 +44,6 @@
     koreader
     libreoffice
     nicotine-plus
-    strawberry
     picard
     puddletag
     bitwarden-desktop
