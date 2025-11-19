@@ -12,6 +12,7 @@
 
     extraConfig = ''
       set -g status on
+      set -g set-clipboard on
       set -g renumber-windows on
       set -g status-justify absolute-centre
       set -g status-position top

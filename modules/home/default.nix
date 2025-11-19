@@ -1,7 +1,6 @@
 {
   imports = [
     ./desktop
-    ./neovim
     ./browser.nix
     ./common.nix
     ./direnv.nix
@@ -13,6 +12,7 @@
     ./imv.nix
     ./mpd.nix
     ./mpv.nix
+    ./neovim.nix
     ./rec.nix
     ./starship.nix
     ./tmux.nix
