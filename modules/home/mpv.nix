@@ -7,7 +7,7 @@
       ytdl-format = "bestvideo+bestaudio/best";
       ytdl-raw-options = "sub-lang=en,write-subs=,embed-subs=,cookies-from-browser=firefox:$\{HOME}\/.librewolf/";
       slang = "en,eng";
-      gpu-context="wayland";
+      gpu-context = "wayland";
     };
 
     bindings = {

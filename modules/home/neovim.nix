@@ -140,6 +140,7 @@
         nix = {
           enable = true;
           lsp.servers = [ "nixd" ];
+          format.type = [ "nixfmt" ];
         };
         go.enable = true;
         clang.enable = true;
@@ -175,15 +176,6 @@
         enable = true;
         sources = {
           "nvim_lsp" = "[LSP]";
-        };
-      };
-
-      formatter.conform-nvim = {
-        enable = true;
-        setupOpts = {
-          formatters_by_ft = {
-            nix = [ "nixfmt" ];
-          };
         };
       };
 
@@ -244,5 +236,8 @@
     };
   };
 
-  home.packages = with pkgs; [ nixfmt ];
+  home.packages = with pkgs; [
+    nixfmt
+    nixfmt-tree
+  ];
 }

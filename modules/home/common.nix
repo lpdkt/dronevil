@@ -48,8 +48,8 @@
     puddletag
     bitwarden-desktop
     keepassxc
-    vesktop
     signal-desktop
+    (discord.override { withVencord = true; })
 
     # cli
     python3
