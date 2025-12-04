@@ -49,7 +49,10 @@
     bitwarden-desktop
     keepassxc
     signal-desktop
-    (discord.override { withVencord = true; })
+    (discord.override {
+      withVencord = true;
+      withOpenASAR = true;
+    })
 
     # cli
     python3

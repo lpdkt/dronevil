@@ -1,6 +1,7 @@
 {
   pkgs,
   inputs,
+  lib,
   ...
 }:
 {
@@ -12,8 +13,6 @@
     defaultEditor = true;
 
     settings.vim = {
-      vimAlias = true;
-
       options = {
         termguicolors = true;
         nu = true;
@@ -124,7 +123,7 @@
           listReferences = "gr";
           nextDiagnostic = "[d";
           previousDiagnostic = "]d";
-          openDiagnosticFloat = "<leader>gl";
+          openDiagnosticFloat = "<leader>vd";
           renameSymbol = "<leader>rn";
           listWorkspaceSymbols = "<leader>ws";
           codeAction = "<leader>ca";
@@ -180,6 +179,7 @@
       };
 
       diagnostics = {
+        enable = true;
         config = {
           virtual_text = true;
           float = {
@@ -231,6 +231,9 @@
           liveGrep = "<leader>fg";
           diagnostics = "<leader>fd";
           findProjects = "<leader>fp";
+          helpTags = "<leader>fh";
+          resume = "<leader>fr";
+          open = "<leader>fv";
         };
       };
     };

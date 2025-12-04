@@ -21,7 +21,7 @@
         selection = "343a55ff";
         selection-match = "2ac3deff";
         selection-text = "c0caf5ff";
-        border = "7aa2f7aa";
+        border = "7aa2f7ff";
       };
 
       border = {

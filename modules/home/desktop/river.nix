@@ -31,8 +31,8 @@
         keyboard-layout = "-options caps:escape eu";
 
         border-width = 2;
-        border-color-focused = "0x7AA2f7AA";
-        border-color-unfocused = "0x414868AA";
+        border-color-focused = "0x7AA2f7";
+        border-color-unfocused = "0x414868";
         background-color = "0x24283B";
 
         focus-follows-cursor = "always";
@@ -97,6 +97,7 @@
         input = {
           "pointer-1133-16534-Logitech_ERGO_M575" = {
             scroll-factor = 1.5;
+            pointer-accel = 0.5;
           };
           "touchpad-*" = {
             natural-scroll = true;

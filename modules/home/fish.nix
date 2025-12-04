@@ -7,7 +7,6 @@
         hostName = builtins.getEnv "HOSTNAME";
       in
       {
-        vim = "nvim";
         media = "cd /mnt/media/";
         music = "cd /mnt/media/music";
         conf = "cd ~/dronevil";
