@@ -1,18 +1,23 @@
-{ pkgs, lib, ... }:
+{
+  inputs,
+  pkgs,
+  lib,
+  ...
+}:
 {
   imports = [
     ./hardware-configuration.nix
     ./mount.nix
+    ./../../modules
+
+    inputs.home-manager.nixosModules.home-manager
   ];
 
   networking.hostName = "noise";
 
   boot.initrd.kernelModules = [ "amdgpu" ];
 
-  hardware.graphics = {
-    enable = true;
-    enable32Bit = true;
-  };
+  hardware.graphics.enable = true;
 
   users.users.leroy = {
     isNormalUser = true;
@@ -23,11 +28,16 @@
       "wheel"
     ];
     shell = pkgs.fish;
-    packages = with pkgs; [ ];
   };
 
-  home-manager.users.leroy = {
-    programs.hyprlock.enable = lib.mkForce false;
-    services.hypridle.enable = lib.mkForce false;
+  home-manager = {
+    useGlobalPkgs = true;
+    useUserPackages = true;
+    users.leroy = {
+      imports = [ ./../../modules/home ];
+      programs.hyprlock.enable = lib.mkForce false;
+      services.hypridle.enable = lib.mkForce false;
+    };
+    extraSpecialArgs = { inherit inputs; };
   };
 }

@@ -113,7 +113,6 @@
 
       lsp = {
         enable = true;
-        formatOnSave = true;
         mappings = {
           format = "<leader>lf";
           hover = "K";
