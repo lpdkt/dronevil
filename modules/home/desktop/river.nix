@@ -1,6 +1,29 @@
 { pkgs, lib, ... }:
+let
+  screenshot = pkgs.writeShellApplication {
+    name = "screenshot";
+    runtimeInputs = with pkgs; [
+      grim
+      slurp
+      wl-clipboard
+    ];
+    text = ''
+      dir="$HOME/pictures/sc"
+      filename="screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png"
+
+      if [ "$1" = "select" ]; then 
+        grim -g "$(slurp)" - | tee "$dir/$filename" | wl-copy
+      else 
+        grim - | tee "$dir/$filename" | wl-copy
+      fi
+    '';
+  };
+in
 {
   wayland.systemd.target = "river-session.target";
+
+  home.packages = [ screenshot ];
+
   wayland.windowManager.river = {
     enable = true;
 
@@ -49,24 +72,24 @@
               "Super Return" = "spawn ${terminal}";
               "Super Q" = "close";
               "Super F" = "spawn ${browser}";
-              "Super E" = "spawn thunar";
               "Super D" = "spawn fuzzel";
+              "Super E" = "spawn thunar";
               "Super+Shift E" = "spawn '${terminal} -e yazi'";
-              "Super+Shift P" = "spawn pavucontrol";
-              "Super M" = "spawn 'pamixer --default-source -t'"; # mute mic
-              "Super+Shift M" = "spawn 'pamixer -t'"; # mute sound
+              "Super P" = "spawn pavucontrol";
+              "Super Period" = "spawn 'pamixer --default-source -t'"; # mute mic
+              "Super+Shift Period" = "spawn 'pamixer -t'"; # mute sound
               "Super F7" = "spawn 'playerctl previous'";
               "Super F8" = "spawn 'playerctl next'";
               "Super F9" = "spawn 'playerctl play-pause'";
               "Super F10" = "spawn 'playerctl volume 0.05-'";
               "Super F11" = "spawn 'playerctl volume 0.05+'";
               "Super F12" = "spawn 'playerctl stop'";
-              "Super N" = "spawn '${terminal} -e rmpc'";
+              "Super M" = "spawn '${terminal} -e rmpc'";
               "Super Y" = "spawn ytmpv";
               "Super+Shift Y" = "spawn ytdl";
               "Super+Alt Y" = "spawn ytmpvsearch";
-              "Super+Shift Period" = "spawn 'mullvad connect'";
-              "Super+Alt Period" = "spawn 'mullvad disconnect'";
+              "Super+Shift Comma" = "spawn 'mullvad connect'";
+              "Super+Alt Comma" = "spawn 'mullvad disconnect'";
               "Super+Alt S" = "spawn screenshot";
               "Super+Shift S" = "spawn 'screenshot select'";
 

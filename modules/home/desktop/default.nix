@@ -12,9 +12,7 @@
     ./swww.nix
   ];
 
-  services = {
-    network-manager-applet.enable = true;
-  };
+  services.network-manager-applet.enable = true;
 
   home.packages = with pkgs; [
     xfce.thunar
@@ -23,8 +21,7 @@
     xfce.xfconf
     ffmpegthumbnailer
     libnotify
-    grim
-    slurp
+    gnome-keyring
     wl-clipboard
     pavucontrol
     pamixer

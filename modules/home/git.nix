@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       user.name = "lpdkt";
-      user.email = "lpdkt@pm.me";
+      user.email = "me@lpdkt.xyz";
     };
   };
 }

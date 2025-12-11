@@ -1,4 +1,3 @@
-{ pkgs, ... }:
 {
   environment.variables = {
     GOPATH = "/home/leroy/.local/share/go";

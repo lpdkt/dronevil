@@ -1,6 +1,7 @@
 {
   services.mako = {
     enable = true;
+
     settings = {
       width = 300;
       height = 200;

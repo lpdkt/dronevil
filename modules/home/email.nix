@@ -10,12 +10,40 @@
     };
   };
 
-  services.protonmail-bridge = {
-    enable = true;
-  };
+  home.packages = with pkgs; [ aerc ];
 
-  home.packages = with pkgs; [
-    pass
-    gnome-keyring
-  ];
+  accounts.email.accounts = {
+    "mail@lpdkt.xyz" = {
+      realName = "lpdkt";
+      address = "mail@lpdkt.xyz";
+      userName = "mail@lpdkt.xyz";
+      thunderbird.enable = true;
+      aerc.enable = true;
+      primary = true;
+      imap = {
+        host = "imap.migadu.com";
+        port = 993;
+      };
+      smtp = {
+        host = "smtp.migadu.com";
+        port = 465;
+      };
+    };
+
+    "leroy@traebert.de" = {
+      realName = "Leroy Traebert";
+      address = "leroy@traebert.de";
+      userName = "leroy@traebert.de";
+      thunderbird.enable = true;
+      aerc.enable = true;
+      imap = {
+        host = "imap.strato.de";
+        port = 993;
+      };
+      smtp = {
+        host = "smtp.strato.de";
+        port = 465;
+      };
+    };
+  };
 }
