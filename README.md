@@ -1,11 +1,13 @@
+# Moved to Codeberg: <https://codeberg.org/lpdkt/dronevil>
+
 # NixOS config
 
-## Disclaimer: 
+## Disclaimer:
 
 This config is not optimized to be used by anyone besides myself.  
 If you want to use it you will have to make your own changes!
 
-### stuff i use: 
+### stuff i use:
 
 distro: `nixos` \
 wm: `river` \
