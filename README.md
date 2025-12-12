@@ -1,4 +1,4 @@
-# Moved to Codeberg: <https://codeberg.org/lpdkt/dronevil>
+# Moved to Codeberg: <https://codeberg.org/lpdkt/nichts>
 
 # NixOS config
 
